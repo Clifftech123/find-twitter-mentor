@@ -1,12 +1,14 @@
 
-import './App.css'
+import Nav from './Components/NavBar/Nav';
 
  const App =() => {
 
 
   return (
 		<>
-			<h1 className="text-3xl font-bold underline ">Welcome to react vite </h1>
+			<div className="font-Poppins">
+				<Nav />
+			</div>
 		</>
 	);
 }
