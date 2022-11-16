@@ -5,7 +5,7 @@ import HomPage from "./Pages/Home/Hompage";
 const App = () => {
 	return (
 		<>
-			<div className="font-Poppins  dark:bg-slate-900 duration-100">
+			<div className="font-Poppins  ">
 				<Nav />
 				<Routes>
 					<Route exact path="/" element={<HomPage />} />
