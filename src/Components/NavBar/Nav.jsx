@@ -49,12 +49,11 @@ import { AiOutlineTeam } from "react-icons/ai";
 	
    return (
 			<>
-				{/* Page Container */}
 				<nav>
 					{/* Page Header */}
 					<header
 						id="page-header"
-						className="flex flex-none items-center dark:text-gray-100 dark:bg-slate-800 duration-100 bg-white shadow-sm z-1"
+						className="flex flex-none items-center dark:text-gray-100 dark:bg-slate-800 duration-100 bg-gray-50 shadow-sm z-1"
 					>
 						<div className="container xl:max-w-7xl mx-auto px-4 lg:px-8">
 							<div className="flex justify-between py-4">
@@ -130,7 +129,7 @@ import { AiOutlineTeam } from "react-icons/ai";
 
 									{/* LIGHT AND  DARK MODE */}
 									<div className="relative inline-block ">
-										<div className="inline-flex justify-center dark:shadow-lg dark:bg-gray-700 items-center space-x-5  font-semibold focus:outline-none px-3 mr-10  md:ml-20 md:mr-0 py-2 leading-5 text-2xl rounded  bg-white text-gray-800    ">
+										<div className="inline-flex justify-center dark:shadow-lg dark:bg-gray-700 items-center space-x-5  font-semibold focus:outline-none px-3 mr-10  md:ml-20 md:mr-0 py-2 leading-5 text-2xl rounded  bg-gray-50 text-gray-800    ">
 											{/* Looping through all the icons */}
 											{options.map((opt) => (
 												<button
