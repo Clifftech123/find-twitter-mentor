@@ -6,7 +6,7 @@ import Hero from "../../Components/HeroSection/Hero";
 const HomPage = () => {
 	return (
 		<>
-			<div className=" dark:bg-slate-900 duration-100">
+			<div className=" font-Poppins dark:bg-slate-900 duration-100">
 				<Hero />
 			</div>
 		</>

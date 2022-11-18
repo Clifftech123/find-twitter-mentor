@@ -4,12 +4,17 @@ import { FcAbout } from "react-icons/fc";
 import { AiTwotoneContacts} from "react-icons/ai";
 import { SiStackshare } from "react-icons/si";
 import { AiOutlineTeam } from "react-icons/ai";
+import { MdOutlinePersonalInjury } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
 
- const Nav =() => {
+
+const Nav = () => {
+	  const navigate = useNavigate();
+
 	 const [ mobileNavOpen, setMobileNavOpen ] = useState( false );
 	 const [ theme, setTheme ] = useState( 
-		 localStorage.getItem( "theme" ) ? localStorage.getItem( "theme") :"system"
+		 localStorage.getItem( "theme" ) ? localStorage.getItem( "theme") :""
 	  );
 	 const element = document.documentElement
 	
@@ -87,13 +92,16 @@ import { AiOutlineTeam } from "react-icons/ai";
 								<div className="flex items-center space-x-1 lg:space-x-5">
 									{/* Desktop Navigation */}
 									<nav className="hidden lg:flex lg:items-center lg:space-x-2">
+										{/* Home */}
 										<button
+											onClick={() => navigate("/")}
 											type="button"
 											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded border border-blue-50 bg-blue-50  dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none text-blue-500"
 										>
 											<AiOutlineHome />
 											<span>Home</span>
 										</button>
+										{/* Teach Stacks */}
 										<button
 											type="button"
 											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50  dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100 dark:hover:bg-slate-700"
@@ -102,6 +110,7 @@ import { AiOutlineTeam } from "react-icons/ai";
 											<span>Tech stack </span>
 										</button>
 
+										{/* Communities */}
 										<button
 											type="button"
 											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 dark:bg-slate-800 dark:text-gray-300 dark:border-none  hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 dark:hover:bg-slate-700 active:border-blue-100"
@@ -109,6 +118,8 @@ import { AiOutlineTeam } from "react-icons/ai";
 											<AiOutlineTeam />
 											<span> communities </span>
 										</button>
+
+										{/* About */}
 										<button
 											type="button"
 											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 500 dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  active:border-blue-100"
@@ -116,6 +127,17 @@ import { AiOutlineTeam } from "react-icons/ai";
 											<FcAbout />
 											<span>About </span>
 										</button>
+										{/* Fined Mentor */}
+										<button
+											onClick={() => navigate("/fineMentor")}
+											type="button"
+											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 500 dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  active:border-blue-100"
+										>
+											<MdOutlinePersonalInjury />
+											<span> Find Mentor </span>
+										</button>
+
+										{/* Contact */}
 										<button
 											type="button"
 											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 500 dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700 active:border-blue-100"
@@ -172,16 +194,19 @@ import { AiOutlineTeam } from "react-icons/ai";
 								{/* END Right Section */}
 							</div>
 
-							{/* Mobile Navigation */}
+							{/* Mobile view Navigation */}
 							<div className={`lg:hidden ${mobileNavOpen ? "" : "hidden"}`}>
 								<nav className="flex flex-col space-y-2 py-4 border-t">
+									{/* home */}
 									<button
+										onClick={() => navigate("/")}
 										type="button"
 										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded border border-blue-50 bg-blue-50 text-blue-500   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none"
 									>
 										<AiOutlineHome />
 										<span>Home</span>
 									</button>
+									{/* Teach Stack */}
 									<button
 										type="button"
 										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50  dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100"
@@ -189,7 +214,7 @@ import { AiOutlineTeam } from "react-icons/ai";
 										<SiStackshare />
 										<span>Tech stack </span>
 									</button>
-
+									{/* Communities */}
 									<button
 										type="button"
 										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100"
@@ -197,6 +222,7 @@ import { AiOutlineTeam } from "react-icons/ai";
 										<AiOutlineTeam />
 										<span> communities </span>
 									</button>
+									{/* About */}
 									<button
 										type="button"
 										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100"
@@ -204,6 +230,17 @@ import { AiOutlineTeam } from "react-icons/ai";
 										<FcAbout />
 										<span>About </span>
 									</button>
+
+									{/* Fined Mentor */}
+									<button
+										onClick={() => navigate("/fineMentor")}
+										type="button"
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 500 dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  active:border-blue-100"
+									>
+										<MdOutlinePersonalInjury />
+										<span> Find Mentor </span>
+									</button>
+									{/* contact */}
 									<button
 										type="button"
 										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100"

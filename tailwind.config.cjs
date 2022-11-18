@@ -10,7 +10,7 @@ module.exports = {
 			},
 			backgroundImage: {
 				Hero: "url('assets/Hero.avif')",
-				
+				FindMentor: "url('assets/FindMentor.jpg')",
 			},
 		},
 	},

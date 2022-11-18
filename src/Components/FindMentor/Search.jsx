@@ -7,16 +7,19 @@ const Search = () => {
 			<form>
 				<div className="flex px-10 md:px-60 py-60 md:py-40 ">
 					<div className="relative w-full">
+						{/* Search Input */}
 						<input
 							type="search"
 							className="block p-3 w-full  text-sm text-gray-900 bg-gray-50  rounded-2xl border-l-gray-50 border-l-2 border border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white active:outline-none focus:outline-none dark:focus:border-blue-500"
-							placeholder="Search Mockups, Logos, Design Templates..."
+							placeholder="Search Front-end,Back-end,Full-Stack,Data-Science"
 							required
 						/>
+						{/* Search button */}
 						<button
 							type="submit"
-							className="absolute top-0 right-0 p-2.5 text-sm font-medium text-white bg-blue-700 rounded-r-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+							className="absolute top-0 right-0 p-3 text-sm font-medium text-white bg-blue-700 rounded-r-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 						>
+							{/* Search icon */}
 							<svg
 								aria-hidden="true"
 								className="w-5 h-5"
