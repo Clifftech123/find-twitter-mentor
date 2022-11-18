@@ -3,7 +3,7 @@
 import React from "react";
 import Hero from "../../Components/HeroSection/Hero";
 
-const HomPage = () => {
+const HomePage = () => {
 	return (
 		<>
 			<div className=" font-Poppins dark:bg-slate-900 duration-100">
@@ -13,4 +13,4 @@ const HomPage = () => {
 	);
 };
 
-export default HomPage;
+export default HomePage;

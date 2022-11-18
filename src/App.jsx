@@ -1,6 +1,6 @@
 import Nav from "./Components/NavBar/Nav";
 import { Routes, Route } from "react-router-dom";
-import HomPage from "./Pages/Home/HomPage";
+import HomePage from "./Pages/Home/Homepage";
 import FindMentor from "./Pages/FindMentor/FindMentor";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
 			<div className="font-Poppins  ">
 				<Nav />
 				<Routes>
-					<Route exact path="/" element={<HomPage />} />
+					<Route exact path="/" element={<HomePage />} />
 					<Route exact path="/fineMentor" element={<FindMentor />} />
 				</Routes>
 			</div>
