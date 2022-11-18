@@ -14,7 +14,7 @@ const Nav = () => {
 
 	 const [ mobileNavOpen, setMobileNavOpen ] = useState( false );
 	 const [ theme, setTheme ] = useState( 
-		 localStorage.getItem( "theme" ) ? localStorage.getItem( "theme") :""
+		 localStorage.getItem( "theme" ) ? localStorage.getItem( "theme") :"light"
 	  );
 	 const element = document.documentElement
 	
