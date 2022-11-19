@@ -1,4 +1,6 @@
-import {  useState,useEffect } from "react";
+
+// NAV component on the homepage 
+import { useState, useEffect } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { FcAbout } from "react-icons/fc";
 import { AiTwotoneContacts} from "react-icons/ai";
@@ -96,7 +98,7 @@ const Nav = () => {
 										<button
 											onClick={() => navigate("/")}
 											type="button"
-											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded border border-blue-50 bg-blue-50  dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none text-blue-500"
+											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded border border-blue-50  dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none text-blue-500"
 										>
 											<AiOutlineHome />
 											<span>Home</span>
