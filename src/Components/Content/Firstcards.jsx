@@ -22,11 +22,13 @@ const FirstCards = () => {
 						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-slate-800   dark:hover:border-blue-600 border-white shadow-sm hover:border-blue-400 transition rounded-lg">
 							{/* FRONDE ICON */}
 							<BsCodeSlash
-								className="text-blue-500 mb-5 hi-outline hi-template inline-block
+								className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block
                                w-12 h-12"
 							/>
 
-							<h4 className="text-lg font-bold mb-2 dark:text-gray-200">Front-end Development</h4>
+							<h4 className="text-lg font-bold mb-2 dark:text-gray-200">
+								Front-end Development
+							</h4>
 							<p className="leading-relaxed  dark:text-gray-300 text-gray-600">
 								Front-end web development, also known as client-side development
 								is the practice of producing HTML, CSS and JavaScript for a
@@ -41,7 +43,7 @@ const FirstCards = () => {
 						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-slate-800   dark:hover:border-blue-600 border-white shadow-sm hover:border-blue-400 transition rounded-lg">
 							{/* BACK-END ICON */}
 							<IoCodeDownloadSharp
-								className="text-blue-500 mb-5 hi-outline hi-template inline-block
+								className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block
                                w-12 h-12"
 							/>
 							<h4 className="text-lg font-bold mb-2 dark:text-gray-200">
@@ -62,7 +64,7 @@ const FirstCards = () => {
 						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-slate-800   dark:hover:border-blue-600 border-white shadow-sm hover:border-blue-400 transition rounded-lg">
 							{/* FULL-STACK ICON */}
 							<BsCodeSquare
-								className="text-blue-500 mb-5 hi-outline hi-template inline-block
+								className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block
                                w-12 h-12"
 							/>
 							<h4 className="text-lg font-bold mb-2  dark:text-white">
@@ -85,7 +87,7 @@ const FirstCards = () => {
 					<div className="grid my-10 grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
 						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-slate-800   dark:hover:border-blue-600 border-white shadow-sm hover:border-blue-400 transition rounded-lg">
 							{/* MOBILE ICON */}
-							<SiAndroidstudio className="text-blue-500 mb-5 hi-outline hi-template inline-block  w-12 h-12" />
+							<SiAndroidstudio className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block  w-12 h-12" />
 							<h4 className="text-lg font-bold mb-2 2 dark:text-gray-200">
 								Mobile App Development
 							</h4>
@@ -103,7 +105,7 @@ const FirstCards = () => {
 						{/* DATA SCIENCE */}
 						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-slate-800   dark:hover:border-blue-600 border-white shadow-sm hover:border-blue-400 transition rounded-lg">
 							{/* DATA SCIENCE ICON */}
-							<BiData className="text-blue-500 mb-5 hi-outline hi-template inline-block  w-12 h-12" />
+							<BiData className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block  w-12 h-12" />
 							<h4 className="text-lg font-bold mb-2  2 dark:text-gray-200">
 								Data Science
 							</h4>
@@ -120,7 +122,7 @@ const FirstCards = () => {
 						</div>
 						{/* DEVOPS */}
 						<div className="p-5 bg-white border-2 border-white dark:border-gray-700 dark:bg-slate-800 shadow-md   dark:hover:border-blue-600 hover:border-blue-400 transition rounded-lg sm:col-span-2 lg:col-span-1">
-							<AiOutlineCloudServer className="text-blue-500 mb-5 hi-outline hi-template inline-block  w-12 h-12" />
+							<AiOutlineCloudServer className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block  w-12 h-12" />
 							<h4 className="text-lg font-bold mb-2 dark:text-gray-200">
 								DevOps Developer
 							</h4>
