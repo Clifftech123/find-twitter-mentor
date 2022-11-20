@@ -8,6 +8,15 @@ module.exports = {
 			fontFamily: {
 				Poppins: "Poppins",
 			},
+
+			colors: {
+				LogoColor: "#F7DF1E",
+				Nav_Bg_Color: "#1e40af",
+				Navbar_text_color: "#f3f3ee",
+				lightprimary: "#ECF3FF",
+				primary: "#3E82FC",
+				Nav_text_hover_color: "#1d4ed8",
+			},
 			backgroundImage: {
 				Hero: "url('assets/Hero.avif')",
 				FindMentor: "url('assets/FindMentor.png')",
