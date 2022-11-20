@@ -60,7 +60,7 @@ const Nav = () => {
 					{/* Page Header */}
 					<header
 						id="page-header"
-						className=" fixed top-0 left-0 right-0  flex flex-none items-center dark:text-gray-100 dark:bg-slate-800 duration-100 bg-gray-50 shadow-sm z-1"
+						className=" flex flex-none items-center dark:text-gray-100 dark:bg-slate-800 duration-100 bg-Nav_Bg_Color   shadow-sm z-1"
 					>
 						<div className="container xl:max-w-7xl mx-auto px-4 lg:px-8">
 							<div className="flex justify-between py-4">
@@ -69,13 +69,13 @@ const Nav = () => {
 									{/* Logo */}
 									<a
 										href="#"
-										className="group inline-flex items-center space-x-2 font-bold text-lg tracking-wide text-gray-700 dark:text-gray-100 hover:text-blue-600 active:text-gray-700"
+										className="group inline-flex items-center space-x-2 font-bold text-lg tracking-wide text-gray-100 dark:text-gray-100 hover:text-blue-600 active:text-gray-700"
 									>
 										<svg
 											fill="currentColor"
 											viewBox="0 0 20 20"
 											xmlns="http://www.w3.org/2000/svg"
-											className="opacity-90 text-blue-600 transform transition group-hover:scale-110 hi-solid hi-cube-transparent inline-block w-5 h-5"
+											className="opacity-90 text-white transform transition group-hover:scale-110 hi-solid hi-cube-transparent inline-block w-5 h-5"
 										>
 											<path
 												fillRule="evenodd"
@@ -98,7 +98,7 @@ const Nav = () => {
 										<button
 											onClick={() => navigate("/")}
 											type="button"
-											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded border border-blue-50  dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none text-blue-500"
+											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  hover:text-white hover:bg-Nav_text_hover_color    dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none text-Navbar_text_color"
 										>
 											<AiOutlineHome />
 											<span>Home</span>
@@ -106,7 +106,7 @@ const Nav = () => {
 										{/* Teach Stacks */}
 										<button
 											type="button"
-											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50  dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100 dark:hover:bg-slate-700"
+											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-Navbar_text_color border border-transparent hover:text-white hover:bg-Nav_text_hover_color   dark:bg-slate-800 dark:text-gray-300 dark:border-none  dark:hover:bg-slate-700"
 										>
 											<SiStackshare />
 											<span>Tech stack </span>
@@ -115,7 +115,7 @@ const Nav = () => {
 										{/* Communities */}
 										<button
 											type="button"
-											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 dark:bg-slate-800 dark:text-gray-300 dark:border-none  hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 dark:hover:bg-slate-700 active:border-blue-100"
+											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent hover:text-white hover:bg-Nav_text_hover_color   dark:bg-slate-800 dark:text-gray-300 dark:border-none    dark:hover:bg-slate-700 "
 										>
 											<AiOutlineTeam />
 											<span> communities </span>
@@ -124,7 +124,7 @@ const Nav = () => {
 										{/* About */}
 										<button
 											type="button"
-											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 500 dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  active:border-blue-100"
+											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent  hover:text-white hover:bg-Nav_text_hover_color   dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
 										>
 											<FcAbout />
 											<span>About </span>
@@ -133,7 +133,7 @@ const Nav = () => {
 										<button
 											onClick={() => navigate("/fineMentor")}
 											type="button"
-											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 500 dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  active:border-blue-100"
+											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color  border border-transparent   hover:text-white hover:bg-Nav_text_hover_color  dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700 "
 										>
 											<MdOutlinePersonalInjury />
 											<span> Find Mentor </span>
@@ -142,7 +142,8 @@ const Nav = () => {
 										{/* Contact */}
 										<button
 											type="button"
-											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 500 dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700 active:border-blue-100"
+											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent  
+											hover:text-white hover:bg-Nav_text_hover_color   active:bg-blue-100 500 dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700 active:border-blue-100"
 										>
 											<AiTwotoneContacts />
 
@@ -153,14 +154,14 @@ const Nav = () => {
 
 									{/* LIGHT AND  DARK MODE */}
 									<div className="relative inline-block ">
-										<div className="inline-flex justify-center dark:shadow-lg dark:bg-gray-700 items-center space-x-5  font-semibold focus:outline-none px-3 mr-10  md:ml-20 md:mr-0 py-2 leading-5 text-2xl rounded  bg-gray-50 text-gray-800    ">
+										<div className="inline-flex justify-center dark:shadow-lg dark:bg-gray-600 items-center space-x-5  font-semibold focus:outline-none px-3 mr-10  md:ml-20 md:mr-0 py-2 leading-5 text-2xl rounded  bg-Nav_text_hover_color  text-white    ">
 											{/* Looping through all the icons */}
 											{options.map((opt) => (
 												<button
 													onClick={() => setTheme(opt.text)}
 													key={opt.text}
 													className={`h-8 w-8 ${
-														theme === opt.text && "text-sky-600"
+														theme === opt.text && "text-sky-400"
 													}  `}
 												>
 													<ion-icon name={opt.icons}></ion-icon>
@@ -196,14 +197,14 @@ const Nav = () => {
 								{/* END Right Section */}
 							</div>
 
-							{/* Mobile view Navigation */}
+							{/* Mobile view Navigation This section will show on only mobile devices */}
 							<div className={`lg:hidden ${mobileNavOpen ? "" : "hidden"}`}>
 								<nav className="flex flex-col space-y-2 py-4 border-t">
 									{/* home */}
 									<button
 										onClick={() => navigate("/")}
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded border border-blue-50 bg-blue-50 text-blue-500   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none"
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   hover:text-white hover:bg-Nav_text_hover_color    text-Navbar_text_color   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none"
 									>
 										<AiOutlineHome />
 										<span>Home</span>
@@ -211,7 +212,7 @@ const Nav = () => {
 									{/* Teach Stack */}
 									<button
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50  dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100"
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent  hover:text-white hover:bg-Nav_text_hover_color    dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 									>
 										<SiStackshare />
 										<span>Tech stack </span>
@@ -219,7 +220,7 @@ const Nav = () => {
 									{/* Communities */}
 									<button
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100"
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent  hover:text-white hover:bg-Nav_text_hover_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 									>
 										<AiOutlineTeam />
 										<span> communities </span>
@@ -227,7 +228,7 @@ const Nav = () => {
 									{/* About */}
 									<button
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100"
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent hover:text-white hover:bg-Nav_text_hover_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 									>
 										<FcAbout />
 										<span>About </span>
@@ -237,7 +238,7 @@ const Nav = () => {
 									<button
 										onClick={() => navigate("/fineMentor")}
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50 active:bg-blue-100 500 dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  active:border-blue-100"
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color  border border-transparent hover:text-white hover:bg-Nav_text_hover_color    dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
 									>
 										<MdOutlinePersonalInjury />
 										<span> Find Mentor </span>
@@ -245,7 +246,7 @@ const Nav = () => {
 									{/* contact */}
 									<button
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-gray-600 border border-transparent hover:text-blue-500 hover:bg-blue-50 hover:border-blue-50   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none active:bg-blue-100 active:border-blue-100"
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color  border border-transparent hover:text-white hover:bg-Nav_text_hover_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 									>
 										<AiTwotoneContacts />
 										<span> Contact </span>
