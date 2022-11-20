@@ -5,12 +5,12 @@ const Search = () => {
 	return (
 		<>
 			<form>
-				<div className="flex px-10 md:px-60 py-60 md:py-40 ">
+				<div className="flex px-10 md:px-10  ">
 					<div className="relative w-full">
 						{/* Search Input */}
 						<input
 							type="search"
-							className="block p-3 w-full  text-sm text-gray-900 bg-gray-50  rounded-2xl border-l-gray-50 border-l-2 border border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white active:outline-none focus:outline-none dark:focus:border-blue-500"
+							className="block p-3 w-full  text-sm text-gray-900 bg-white  rounded-2xl border-l-gray-50 border-l-2 border border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white active:outline-none focus:outline-none dark:focus:border-blue-500"
 							placeholder="Search Front-end,Back-end,Full-Stack,Data-Science"
 							required
 						/>
