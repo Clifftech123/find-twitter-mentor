@@ -105,6 +105,7 @@ const Nav = () => {
 										</button>
 										{/* Teach Stacks */}
 										<button
+											onClick={() => navigate("/techStack")}
 											type="button"
 											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded text-Navbar_text_color border border-transparent hover:text-white hover:bg-Nav_text_hover_color   dark:bg-slate-800 dark:text-gray-300 dark:border-none  dark:hover:bg-slate-700"
 										>
@@ -114,6 +115,7 @@ const Nav = () => {
 
 										{/* Communities */}
 										<button
+											onClick={() => navigate("/communities")}
 											type="button"
 											className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent hover:text-white hover:bg-Nav_text_hover_color   dark:bg-slate-800 dark:text-gray-300 dark:border-none    dark:hover:bg-slate-700 "
 										>
@@ -211,6 +213,7 @@ const Nav = () => {
 									</button>
 									{/* Teach Stack */}
 									<button
+										onClick={() => navigate("/techStack")}
 										type="button"
 										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent  hover:text-white hover:bg-Nav_text_hover_color    dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 									>
@@ -219,6 +222,7 @@ const Nav = () => {
 									</button>
 									{/* Communities */}
 									<button
+										onClick={() => navigate("/communities")}
 										type="button"
 										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent  hover:text-white hover:bg-Nav_text_hover_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 									>
