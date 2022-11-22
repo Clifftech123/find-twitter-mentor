@@ -211,7 +211,7 @@ const Nav = () => {
 						</div>
 
 						{/* Mobile view Navigation This section will show on only mobile devices */}
-						<div className={`lg:hidden ${!mobileNavOpen ? "" : "hidden"}`}>
+						<div className={`lg:hidden ${mobileNavOpen ? "" : "hidden"}`}>
 							<nav className="flex flex-col space-y-2 py-4 border-t">
 								{/* home */}
 								<button
