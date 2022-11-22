@@ -217,7 +217,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   hover:text-white  hover:bg-primary     text-Navbar_text_color   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none"
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   hover:text-white  hover:bg-primary     text-gray-700   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none"
 								>
 									<AiOutlineHome />
 									<span>Home</span>
@@ -226,7 +226,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/techStack")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent  hover:text-white  hover:bg-primary     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white  hover:bg-primary     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 								>
 									<SiStackshare />
 									<span>Tech stack </span>
@@ -235,7 +235,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/communities")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent  hover:text-white  hover:bg-primary      dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white  hover:bg-primary      dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 								>
 									<AiOutlineTeam />
 									<span> communities </span>
@@ -243,7 +243,7 @@ const Nav = () => {
 								{/* About */}
 								<button
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color border border-transparent hover:text-white  hover:bg-primary      dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent hover:text-white  hover:bg-primary      dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 								>
 									<FcAbout />
 									<span>About </span>
@@ -253,7 +253,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/fineMentor")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color  border border-transparent hover:text-white  hover:bg-primary     dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border border-transparent hover:text-white  hover:bg-primary     dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
 								>
 									<MdOutlinePersonalInjury />
 									<span> Find Mentor </span>
@@ -261,7 +261,7 @@ const Nav = () => {
 								{/* contact */}
 								<button
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-Navbar_text_color  border border-transparent hover:text-white  hover:bg-primary      dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent hover:text-white  hover:bg-primary      dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 								>
 									<AiTwotoneContacts />
 									<span> Contact </span>
