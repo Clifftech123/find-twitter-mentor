@@ -1,10 +1,11 @@
 import React from 'react'
+import Hero from './Hero'
 
 const TechStackMain = () => {
   return (
-      <div className='container text-center'>
-          Welcome to Tech stack.This page is still under services
-    </div>
+    <>
+      <Hero/>
+     </>
   )
 }
 
