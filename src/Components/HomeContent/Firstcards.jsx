@@ -15,21 +15,21 @@ const FirstCards = () => {
   return (
 		<div>
 			{/* Features Section: Boxes with Icons */}
-			<div className="bg-gray-20  dark:bg-gray-900 duration-100">
-				<div className="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
-					{/* FONT-EDN DEVELOPER */}
-					<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600 border-gray-100 hover:shadow-lg shadow-sm   rounded-lg">
+			<div className="  bg-white   dark:bg-gray-900 duration-100">
+				<div className="container xl:max-w-7xl mx-auto px-4 py-1  lg:py-32">
+					<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2">
+						{/* FONT-EDN DEVELOPER */}
+						<div className="p-5 leading-relaxed  tracking-wide bg-white border-2  dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600 border-gray-100 hover:shadow-lg shadow-md   rounded-lg">
 							{/* FRONDE ICON */}
 							<BsCodeSlash
-								className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block
+								className="text-primary mb-5 hi-outline hi-template inline-block
                                w-12 h-12"
 							/>
 
-							<h4 className="text-lg font-bold mb-2 dark:text-gray-200">
+							<h4 className="text-lg text-gray-600 font-semibold   mb-2 dark:text-gray-200">
 								Front-end Development
 							</h4>
-							<p className="leading-relaxed  tracking-wide dark:text-gray-300 text-gray-600">
+							<p className=" dark:text-gray-300 text-gray-600">
 								Front-end web development, also known as client-side development
 								is the practice of producing HTML, CSS and JavaScript for a
 								website or Web Application so that a user can see and interact
@@ -40,13 +40,13 @@ const FirstCards = () => {
 							</p>
 						</div>
 						{/* BACK-END DEVELOPMENT */}
-						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600  border-gray-100 hover:shadow-lg shadow-sm transition rounded-lg">
+						<div className="p-5 leading-relaxed   tracking-wide bg-white border-2  dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600  border-gray-100 hover:shadow-lg shadow-md transition rounded-lg">
 							{/* BACK-END ICON */}
 							<IoCodeDownloadSharp
-								className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block
+								className="text-primary mb-5 hi-outline hi-template inline-block
                                w-12 h-12"
 							/>
-							<h4 className="text-lg font-bold mb-2 dark:text-gray-200">
+							<h4 className="text-lg font-semibold   text-gray-600 mb-2 dark:text-gray-200">
 								Back-end Development
 							</h4>
 							<p className="leading-relaxed tracking-wide dark:text-gray-300 text-gray-600">
@@ -61,13 +61,13 @@ const FirstCards = () => {
 						</div>
 						{/* FULL-STACK */}
 
-						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600  border-gray-100 hover:shadow-lg shadow-sm  transition rounded-lg">
+						<div className="p-5 bg-white border-2 leading-relaxed   tracking-wide  dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600  border-gray-100 hover:shadow-lg shadow-md  transition rounded-lg">
 							{/* FULL-STACK ICON */}
 							<BsCodeSquare
-								className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block
+								className="text-primary  mb-5 hi-outline hi-template inline-block
                                w-12 h-12"
 							/>
-							<h4 className="text-lg font-bold mb-2  dark:text-white">
+							<h4 className="text-lg font-semibold  text-gray-600  mb-2  dark:text-white">
 								Full-Stack Development
 							</h4>
 							<p className="leading-relaxed  tracking-wide dark:text-gray-300 text-gray-600">
@@ -80,15 +80,14 @@ const FirstCards = () => {
 								have expertise in both.
 							</p>
 						</div>
-					</div>
 
-					{/* SECOND CARDS  */}
-					{/* MOBILE */}
-					<div className="grid my-10 grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600  border-gray-100 hover:shadow-lg shadow-sm  transition rounded-lg">
+						{/* SECOND CARDS  */}
+						{/* MOBILE APP DEVELOPMENT */}
+
+						<div className="p-5 bg-white dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600  border-gray-100 hover:shadow-lg shadow-md  transition rounded-lg">
 							{/* MOBILE ICON */}
-							<SiAndroidstudio className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block  w-12 h-12" />
-							<h4 className="text-lg font-bold mb-2 2 dark:text-gray-200">
+							<SiAndroidstudio className="text-primary  mb-5 hi-outline hi-template inline-block  w-12 h-12" />
+							<h4 className="text-lg font-semibold  text-gray-600   mb-2 2 dark:text-gray-200">
 								Mobile App Development
 							</h4>
 							<p className="leading-relaxed tracking-wide dark:text-gray-300 text-gray-600">
@@ -103,10 +102,10 @@ const FirstCards = () => {
 							</p>
 						</div>
 						{/* DATA SCIENCE */}
-						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600  border-gray-100 hover:shadow-lg shadow-sm  transition rounded-lg">
+						<div className="p-5 bg-white border-2 leading-relaxed   tracking-wide  dark:border-gray-700 dark:bg-gray-800   dark:hover:border-blue-600  border-gray-100 hover:shadow-lg shadow-md  transition rounded-lg">
 							{/* DATA SCIENCE ICON */}
-							<BiData className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block  w-12 h-12" />
-							<h4 className="text-lg font-bold mb-2  2 dark:text-gray-200">
+							<BiData className="text-primary mb-5 hi-outline hi-template inline-block  w-12 h-12" />
+							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-200">
 								Data Science
 							</h4>
 							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-300  text-gray-600">
@@ -121,9 +120,9 @@ const FirstCards = () => {
 							</p>
 						</div>
 						{/* DEVOPS */}
-						<div className="p-5 bg-white border-2  dark:border-gray-700 dark:bg-gray-800 shadow-sm  border-gray-100 hover:shadow-lg   dark:hover:border-blue-600  transition rounded-lg sm:col-span-2 lg:col-span-1">
-							<AiOutlineCloudServer className="text-Nav_Bg_Color mb-5 hi-outline hi-template inline-block  w-12 h-12" />
-							<h4 className="text-lg font-bold mb-2 dark:text-gray-200">
+						<div className="p-5 bg-white border-2 leading-relaxed   tracking-wide   dark:border-gray-700 dark:bg-gray-800 shadow-md  border-gray-100 hover:shadow-lg   dark:hover:border-blue-600  transition rounded-lg ">
+							<AiOutlineCloudServer className="text-primary mb-5 hi-outline hi-template inline-block  w-12 h-12" />
+							<h4 className="text-lg font-semibold   text-gray-600  mb-2 dark:text-gray-200">
 								DevOps Developer
 							</h4>
 							<p className="leading-relaxed tracking-wide font-Poppins  dark:text-gray-300  text-gray-600">
