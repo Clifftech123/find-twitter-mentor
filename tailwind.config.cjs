@@ -11,8 +11,8 @@ module.exports = {
 
 			colors: {
 				LogoColor: "#F7DF1E",
-				Nav_Bg_Color: "#1e40af",
-				Navbar_text_color: "#f3f3ee",
+				Nav_Bg_Color: "#F0F2FB",
+				Navbar_text_color: "#0000",
 				lightprimary: "#ECF3FF",
 				primary: "#3E82FC",
 				Nav_text_hover_color: "#1d4ed8",
