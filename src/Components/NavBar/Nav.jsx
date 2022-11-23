@@ -54,7 +54,7 @@ const Nav = () => {
 				<header
 					id="page-header"
 					className="  	
-						 flex flex-none items-center dark:text-gray-100 dark:bg-gray-800 duration-100 bg-Nav_Bg_Color   shadow-5xl z-1"
+						 flex flex-none items-center dark:text-gray-100 dark:bg-nav_dark_bg_color duration-100 bg-Nav_Bg_Color   shadow-5xl z-1"
 				>
 					<div className="container xl:max-w-7xl mx-auto px-4 lg:px-8">
 						<div className="flex justify-between py-4">
@@ -92,7 +92,7 @@ const Nav = () => {
 									<button
 										onClick={() => navigate("/")}
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  hover:text-white  hover:bg-Nav_text_hover_color    dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none  text-gray-700 "
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  hover:text-white  hover:bg-Nav_text_hover_color    dark:hover:bg-slate-700  dark:bg-nav_dark_bg_color dark:text-gray-300 dark:border-none  text-gray-700 "
 									>
 										<AiOutlineHome />
 										<span>Home</span>
@@ -101,7 +101,7 @@ const Nav = () => {
 									<button
 										onClick={() => navigate("/techStack")}
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700   border border-transparent hover:text-white  hover:bg-Nav_text_hover_color   dark:bg-slate-800 dark:text-gray-300 dark:border-none  dark:hover:bg-slate-700"
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700   border border-transparent hover:text-white  hover:bg-Nav_text_hover_color dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none  dark:hover:bg-slate-700"
 									>
 										<SiStackshare />
 										<span>Tech stack </span>
@@ -111,7 +111,7 @@ const Nav = () => {
 									<button
 										onClick={() => navigate("/communities")}
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent hover:text-white hover:bg-Nav_text_hover_color   dark:bg-slate-800 dark:text-gray-300 dark:border-none    dark:hover:bg-slate-700 "
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent hover:text-white hover:bg-Nav_text_hover_color dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none    dark:hover:bg-slate-700 "
 									>
 										<AiOutlineTeam />
 										<span> communities </span>
@@ -120,7 +120,7 @@ const Nav = () => {
 									{/* About */}
 									<button
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border-transparent  hover:text-white hover:bg-Nav_text_hover_color   dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border-transparent  hover:text-white hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
 									>
 										<FcAbout />
 										<span>About </span>
@@ -129,7 +129,7 @@ const Nav = () => {
 									<button
 										onClick={() => navigate("/fineMentor")}
 										type="button"
-										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent   hover:text-white hover: hover:bg-Nav_text_hover_color  dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700 "
+										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent   hover:text-white hover: hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none dark:hover:bg-slate-700 "
 									>
 										<MdOutlinePersonalInjury />
 										<span> Find Mentor </span>
@@ -139,7 +139,7 @@ const Nav = () => {
 									<button
 										type="button"
 										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border border-transparent  
-											hover:text-white  hover:bg-Nav_text_hover_color  dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700 "
+											hover:text-white  hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none dark:hover:bg-slate-700 "
 									>
 										<AiTwotoneContacts />
 
@@ -150,14 +150,14 @@ const Nav = () => {
 
 								{/* LIGHT AND  DARK MODE */}
 								<div className="relative inline-block ">
-									<div className="inline-flex justify-center dark:shadow-lg dark:bg-gray-600 items-center space-x-5  font-semibold focus:outline-none px-3 mr-10  md:ml-20 md:mr-0 py-2 leading-5 text-2xl rounded  bg-Nav_text_hover_color  text-white    ">
+									<div className="inline-flex justify-center dark:shadow-lg dark:bg-nav_dark_bg_color  items-center space-x-5  font-semibold focus:outline-none px-3 mr-10  md:ml-20 md:mr-0 py-2 leading-5 text-2xl rounded  bg-Nav_Bg_Color  text-gray-600    ">
 										{/* Looping through all the icons */}
 										{options.map((opt) => (
 											<button
 												onClick={() => setTheme(opt.text)}
 												key={opt.text}
 												className={`h-8 w-8 ${
-													theme === opt.text && "text-sky-400"
+													theme === opt.text && "text-primary"
 												}  `}
 											>
 												<ion-icon name={opt.icons}></ion-icon>
@@ -217,7 +217,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   hover:text-white   hover:bg-Nav_text_hover_color     text-gray-700   dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none"
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   hover:text-white   hover:bg-Nav_text_hover_color     text-gray-700   dark:hover:bg-slate-700 dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none"
 								>
 									<AiOutlineHome />
 									<span>Home</span>
@@ -226,7 +226,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/techStack")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white   hover:bg-Nav_text_hover_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white   hover:bg-Nav_text_hover_color dark:bg-nav_dark_bg_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 								>
 									<SiStackshare />
 									<span>Tech stack </span>
@@ -235,7 +235,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/communities")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white   hover:bg-Nav_text_hover_color      dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white   hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 								>
 									<AiOutlineTeam />
 									<span> communities </span>
@@ -243,7 +243,7 @@ const Nav = () => {
 								{/* About */}
 								<button
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent hover:text-white   hover:bg-Nav_text_hover_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent hover:text-white   hover:bg-Nav_text_hover_color dark:bg-nav_dark_bg_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 								>
 									<FcAbout />
 									<span>About </span>
@@ -253,7 +253,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/fineMentor")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border border-transparent hover:text-white  hover:bg-Nav_text_hover_color    dark:bg-slate-800 dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border border-transparent hover:text-white  hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
 								>
 									<MdOutlinePersonalInjury />
 									<span> Find Mentor </span>
@@ -261,7 +261,7 @@ const Nav = () => {
 								{/* contact */}
 								<button
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent hover:text-white    hover:bg-Nav_text_hover_color      dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent hover:text-white    hover:bg-Nav_text_hover_color      dark:hover:bg-slate-700 dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none "
 								>
 									<AiTwotoneContacts />
 									<span> Contact </span>
