@@ -16,7 +16,8 @@ module.exports = {
 				lightprimary: "#ECF3FF",
 				primary: "#3E82FC",
 				Nav_text_hover_color: "#1d4ed8",
-				Dark_bg: "#03527E",
+				Dark_bg_color: "#09091b",
+				nav_dark_bg_color: "#0b0a10;"
 			},
 			backgroundImage: {
 				Hero: "url('assets/Hero.avif')",
