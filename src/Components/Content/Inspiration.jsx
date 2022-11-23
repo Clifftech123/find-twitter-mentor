@@ -10,7 +10,7 @@ const Image =
 const Inspiration = () => {
   return (
 		<>
-			<section class=" dark:bg-gray-900">
+			<section class="  dark:bg-Dark_bg_color">
 				<div class="container px-6 py-10 mx-auto">
 					<div class="lg:-mx-6 lg:flex lg:items-center">
 						{/* IMAGE */}
@@ -47,7 +47,7 @@ const Inspiration = () => {
 			{/* TEXT */}
 
 			{/*  Some Questions beginners ask */}
-			<div className="  dark:bg-gray-900">
+			<div className="   dark:bg-Dark_bg_color ">
 				<div className="space-y-16 container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
 					{/* Heading */}
 					<div className="text-center">
@@ -59,7 +59,7 @@ const Inspiration = () => {
 
 					{/* QUESTIONS */}
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 ">
-						<div className="   dark:bg-gray-900  bg-Nav_Bg_Color   p-5    text-gray-600 tracking-wide leading-relaxed">
+						<div className="     dark:bg-gray-900   bg-Nav_Bg_Color   p-5    text-gray-600 tracking-wide leading-relaxed">
 							<h4 className="font-bold dark:text-gray-300">
 								Am I old to start learn how to code?
 							</h4>
