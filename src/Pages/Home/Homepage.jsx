@@ -1,9 +1,9 @@
 // Ths components  render all the homepage content
 
 import React from "react";
-import FirstCards from "../../Components/HomeContent/Firstcards";
+import FirstCards from "../../Components/Content/Firstcards";
 import Hero from "../../Components/HeroSection/Hero";
-import Inspiration from "../../Components/HomeContent/Inspiration";
+import Inspiration from "../../Components/Content/Inspiration";
 
 const HomePage = () => {
 	return (
