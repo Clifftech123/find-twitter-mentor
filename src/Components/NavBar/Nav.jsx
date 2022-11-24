@@ -49,11 +49,12 @@ const Nav = () => {
 
 	return (
 		<>
-			<nav>
+			<nav >
 				{/* Page Header */}
 				<header
 					id="page-header"
-					className="  	
+					className="  
+					   
 						 flex flex-none items-center dark:text-gray-100 dark:bg-nav_dark_bg_color duration-100 bg-Nav_Bg_Color   shadow-5xl z-1"
 				>
 					<div className="container xl:max-w-7xl mx-auto px-4 lg:px-8">

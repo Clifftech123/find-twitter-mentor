@@ -9,7 +9,7 @@ const Hero = () => {
   return (
 		<>
 			{/* Adding background image to the search button */}
-			<div class="w-full bg-center bg-cover bg-Hero  h-[28rem]">
+			<div class="w-full h-80 bg-center bg-cover bg-Hero ">
         <div class=" h-full bg-gray-900 bg-opacity-50">
           <Text/>
 				</div>
