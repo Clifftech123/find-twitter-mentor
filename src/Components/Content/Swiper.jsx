@@ -3,11 +3,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { useState } from 'react';
+
+
+
+
+
+
+
+
 
 
 const SwiperComponent = () => {
+  const [TextShow , SetTextShow] = useState(false)
 
 // Swiper IMages on links 
  const Image1 = "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
@@ -83,8 +92,8 @@ const SwiperComponent = () => {
 				</div>
 
 				{/* TEXT  */}
-				<div>
-					<p className="  dark:bg-Dark_bg_color  text-lg shadow-sm rounded-md p-5 font-Poppins md:py-10  md:h-5/6  bg-blue-600 text-gray-100 dark:text-gray-400  leading-relaxed  tracking-wide">
+				<div className=" hidden sm:block ">
+					<p className="  dark:bg-Dark_bg_color  text-lg   p-5 font-Poppins md:py-10  md:h-5/6  text-gray-500    dark:text-gray-400  leading-relaxed  tracking-wide">
 						An important part of being a software developer is continuing your
 						education. There are always new tools to acquire and better ways of
 						developing software. Software developers need to spend a
@@ -95,6 +104,41 @@ const SwiperComponent = () => {
 						programming languages, new ways to use old languages and new tools
 						to make development easier. In addition, you'll be able to learn new
 						things about the industry you are working in.
+					</p>
+				</div>
+
+				{/* SHOWING ON SMALL DEVICE */}
+				<div className="  sm:hidden ">
+					<p className="  dark:bg-Dark_bg_color  text-lg shadow-sm rounded-md p-5 font-Poppins md:py-10  md:h-5/6  text-gray-500 md:text-white dark:text-gray-400  leading-relaxed  tracking-wide">
+						An important part of being a software developer is continuing your
+						education. There are always new tools to acquire and better ways of
+						developing software. Software developers need to spend a
+						considerable amount of time keeping up to date with the latest news
+						and developments in their industry so that they can create the best
+						possible products.
+						<span>
+							{TextShow ? (
+								<p>
+									If you're someone who likes to learn new things, software
+									development can be a rewarding field. You'll learn new
+									programming languages, new ways to use old languages and new
+									tools to make development easier. In addition, you'll be able
+									to learn new things about the industry you are working in
+								</p>
+							) : (
+								""
+							)}
+						</span>
+						<div className="flex justify-center">
+							<button
+								type="button"
+								className="bg-blue-700 p-2 rounded-lg mt-3 text-white w-full "
+								onClick={() => SetTextShow(!TextShow)}
+							>
+							
+								{TextShow ? <span> Show Less </span> : <span> Show More </span>}
+							</button>
+						</div>
 					</p>
 				</div>
 			</div>
