@@ -10,14 +10,14 @@ const TechStackHero = () => {
 					<div>
 						<div>
 							<h1 className="  dark:text-white text-blue-800 text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-								Get Started with Tech Stack
+								What is a Tech Stack?
 							</h1>
 							<p className="  dark:text-gray-200 mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-								A technology stack is a set of technologies that are stacked
-								together to build any application. Popularly known as a
-								technology infrastructure or solutions stack, technology stack
-								has become essential for building easy-to-maintain, scalable web
-								applications.
+								A tech stack is the combination of technologies a company uses
+								to build and run an application or project. Sometimes called a
+								“solutions stack,” a tech stack typically consists of
+								programming languages, frameworks, a database, front-end tools,
+								back-end tools, and applications connected via APIs
 							</p>
 						</div>
 						{/* RENDER SEARCH FROM THE SEARCH COMPONENT */}
