@@ -1,10 +1,12 @@
 import React from 'react'
-import Hero from './Hero'
+import Content from './Content'
+import TechStackHero from './Hero'
 
 const TechStackMain = () => {
   return (
     <>
-      <Hero/>
+      <TechStackHero />
+      <Content/>
      </>
   )
 }
