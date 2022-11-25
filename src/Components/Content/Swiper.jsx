@@ -22,7 +22,7 @@ const SwiperComponent = () => {
 		"https://images.unsplash.com/photo-1573167710701-35950a41e251?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80";
 	return (
 		<>
-			<div className="    dark:bg-Dark_bg_color px-10 sm:px-20 grid grid-cols-1   md:gap-20 gap-5 sm:grid-cols-1 lg:grid-cols-2">
+			<div className="    dark:bg-Dark_bg_color px-5 sm:px-20 grid grid-cols-1   md:gap-20 gap-5 sm:grid-cols-1 lg:grid-cols-2">
 				{/* SWIPER WITH IMAGES */}
 				<div>
 					<Swiper
