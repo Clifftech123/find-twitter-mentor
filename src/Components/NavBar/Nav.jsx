@@ -7,6 +7,7 @@ import { SiStackshare } from "react-icons/si";
 import { AiOutlineTeam } from "react-icons/ai";
 import { MdOutlinePersonalInjury } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Nav = () => {
 	const navigate = useNavigate();
@@ -49,7 +50,7 @@ const Nav = () => {
 
 	return (
 		<>
-			<nav >
+			<nav>
 				{/* Page Header */}
 				<header
 					id="page-header"
@@ -124,7 +125,11 @@ const Nav = () => {
 										className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border-transparent  hover:text-white hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
 									>
 										<FcAbout />
-										<span>About </span>
+										<span>
+											<HashLink smooth to="/#Connect">
+												Connect
+											</HashLink>
+										</span>
 									</button>
 									{/* Fined Mentor */}
 									<button
@@ -247,7 +252,9 @@ const Nav = () => {
 									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent hover:text-white   hover:bg-Nav_text_hover_color dark:bg-nav_dark_bg_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
 								>
 									<FcAbout />
-									<span>About </span>
+									<HashLink smooth to="/#Connect">
+										Connect
+									</HashLink>
 								</button>
 
 								{/* Fined Mentor */}
