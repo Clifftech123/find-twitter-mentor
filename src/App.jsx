@@ -9,7 +9,7 @@ import Footer from "./Components/Footer/Footer";
 const App = () => {
 	return (
 		<>
-			<div className="font-Poppins  ">
+			<div className="font-Poppins  dark:bg-Dark_bg_color" >
 				{/* MAIN NAVBAR ON THE PAGE */}
 				<Nav />
 				<Routes>
@@ -19,7 +19,9 @@ const App = () => {
 					<Route exact path="/techStack" element={<TechStackPage />} />
 				</Routes>
 				{/* FOOTER */}
-				<Footer/>
+				
+					<Footer />
+				
 			</div>
 		</>
 	);
