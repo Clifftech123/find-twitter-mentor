@@ -12,12 +12,11 @@ module.exports = {
 			colors: {
 				LogoColor: "#F7DF1E",
 				Nav_Bg_Color: "#F0F2FB",
-				Navbar_text_color: "#0000",
 				lightprimary: "#ECF3FF",
-				primary: "#3E82FC",
+				primary: "#1d4ed8",
 				Nav_text_hover_color: "#1d4ed8",
 				Dark_bg_color: "#09091b",
-				nav_dark_bg_color: "#0b0a10;"
+				nav_dark_bg_color: "#0b0a10;",
 			},
 			backgroundImage: {
 				Hero: "url('assets/Hero.avif')",
