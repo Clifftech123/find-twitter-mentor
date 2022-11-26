@@ -1,5 +1,5 @@
 // NAV component on the homepage
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { FcAbout } from "react-icons/fc";
 import { AiTwotoneContacts } from "react-icons/ai";
@@ -46,7 +46,32 @@ const Nav = () => {
 				localStorage.removeItem("theme");
 				break;
 		}
-	}, [theme]);
+	}, [ theme ] );
+
+{
+	/* 
+	This UseEffect is helping  to close the navigation bar any time
+	we click outside the navbar 
+	
+	*/
+}
+	  let menuRef = useRef();
+		useEffect(() => {
+			let handler = (e) => {
+				if (!menuRef.current.contains(e.target)) {
+					setMobileNavOpen(false);
+					console.log(menuRef.current);
+				}
+			};
+
+			document.addEventListener("mousedown", handler);
+
+			return () => {
+				document.removeEventListener("mousedown", handler);
+			};
+		} );
+	
+	
 
 	return (
 		<>
@@ -55,7 +80,7 @@ const Nav = () => {
 				<header
 					id="page-header"
 					className="  
-					   
+
 						 flex flex-none items-center dark:text-gray-100 dark:bg-nav_dark_bg_color duration-100 bg-Nav_Bg_Color   shadow-5xl z-1"
 				>
 					<div className="container xl:max-w-7xl mx-auto px-4 lg:px-8">
@@ -218,6 +243,7 @@ const Nav = () => {
 
 						{/* Mobile view Navigation This section will show on only mobile devices */}
 						<div
+							ref={menuRef}
 							className={`     dark:bg-slate-900   bg-white shadow-2xl   fixed top-0 z-50  w-2/3 h-screen  md:hidden flex flex-col gap-10  text-medium  p-7 pt-20 right-0  duration-500lg:hidden ${
 								mobileNavOpen ? "right-0 text-center" : "right-[-100%]"
 							}`}
