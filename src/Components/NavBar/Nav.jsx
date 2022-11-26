@@ -155,7 +155,7 @@ const Nav = () => {
 								{/* END Desktop Navigation */}
 
 								{/* LIGHT AND  DARK MODE */}
-								<div className="relative inline-block ">
+								<div className="  hidden  relative md:inline-block ">
 									<div className="inline-flex justify-center dark:shadow-lg dark:bg-nav_dark_bg_color  items-center space-x-5  font-semibold focus:outline-none px-3 mr-10  md:ml-20 md:mr-0 py-2 leading-5 text-2xl rounded  bg-Nav_Bg_Color  text-gray-600    ">
 										{/* Looping through all the icons */}
 										{options.map((opt) => (
@@ -177,7 +177,7 @@ const Nav = () => {
 								<div className="lg:hidden">
 									<button
 										type="button"
-										className="inline-flex   transition  duration-400 justify-center items-center space-x-2 border font-semibold focus:outline-none px-3 py-2 leading-6 rounded dark:bg-gray-300 border-gray-300 bg-white text-gray-800 shadow-sm hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:shadow focus:ring focus:ring-gray-200 focus:ring-opacity-25 active:bg-white active:border-white active:shadow-none"
+										className="inline-flex transition  duration-400 justify-center items-center space-x-2  font-semibold focus:outline-none px-3 py-2 leading-6 rounded dark:bg-gray-300  bg-white text-gray-800  hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300  focus:ring-opacity-25 active:bg-white  active:shadow-none"
 										onClick={() => setMobileNavOpen(!mobileNavOpen)}
 									>
 										{mobileNavOpen ? (
@@ -217,13 +217,57 @@ const Nav = () => {
 						</div>
 
 						{/* Mobile view Navigation This section will show on only mobile devices */}
-						<div className={`lg:hidden ${mobileNavOpen ? "" : "hidden"}`}>
-							<nav className="flex   transition  duration-400 j  flex-col space-y-2 py-4 border-t   ">
+						<div
+							className={`     dark:bg-slate-900   bg-white shadow-2xl   fixed top-0 z-50  w-2/3 h-screen  md:hidden flex flex-col gap-10  text-medium  p-7 pt-20 right-0  duration-500lg:hidden ${
+								mobileNavOpen ? "right-0 text-center" : "right-[-100%]"
+							}`}
+						>
+							{/* Toggle Mobile Navigation  on small device */}
+							<div className="md:hidden   dark:bg-slate-900 ">
+								<button
+									type="button"
+									className="inline-flex  dark:bg-slate-900   transition  duration-400 justify-center items-center space-x-2  font-semibold focus:outline-none px-3 py-2 leading-6 rounded    text-gray-800 shadow-sm hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:shadow focus:ring focus:ring-gray-200 focus:ring-opacity-25 "
+									onClick={() => setMobileNavOpen(!mobileNavOpen)}
+								>
+									{mobileNavOpen ? (
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											className="w-6 h-6   dark:text-white"
+											viewBox="0 0 20 20"
+											fill="currentColor"
+										>
+											<path
+												fillRule="evenodd"
+												d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+												clipRule="evenodd"
+											/>
+										</svg>
+									) : (
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											className="w-6 h-6"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+											strokeWidth={2}
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												d="M4 6h16M4 12h16M4 18h16"
+											/>
+										</svg>
+									)}
+								</button>
+							</div>
+							{/* END OF TOGGLE ICON */}
+
+							<nav className="flex   transition duration-300  flex-col space-y-2 py-4 border-t   ">
 								{/* home */}
 								<button
 									onClick={() => navigate("/")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   hover:text-white   hover:bg-Nav_text_hover_color     text-gray-700   dark:hover:bg-slate-700 dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none"
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   hover:text-white   hover:bg-Nav_text_hover_color    dark:bg-slate-900  text-gray-700   dark:hover:bg-slate-700 dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none"
 								>
 									<AiOutlineHome />
 									<span>Home</span>
@@ -232,7 +276,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/techStack")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white   hover:bg-Nav_text_hover_color dark:bg-nav_dark_bg_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm   font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white   hover:bg-Nav_text_hover_color dark:bg-nav_dark_bg_color     dark:hover:bg-slate-700 dark:bg-slate-900 dark:text-gray-300 dark:border-none "
 								>
 									<SiStackshare />
 									<span>Tech stack </span>
@@ -241,7 +285,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/communities")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white   hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="   dark:bg-slate-900 text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent  hover:text-white   hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color     dark:hover:bg-slate-700  dark:text-gray-300 dark:border-none "
 								>
 									<AiOutlineTeam />
 									<span> communities </span>
@@ -249,7 +293,7 @@ const Nav = () => {
 								{/* About */}
 								<button
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent hover:text-white   hover:bg-Nav_text_hover_color dark:bg-nav_dark_bg_color     dark:hover:bg-slate-700 dark:bg-slate-800 dark:text-gray-300 dark:border-none "
+									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700 border border-transparent hover:text-white   hover:bg-Nav_text_hover_color dark:bg-nav_dark_bg_color  dark:bg-slate-900    dark:hover:bg-slate-700  dark:text-gray-300 dark:border-none "
 								>
 									<FcAbout />
 									<HashLink smooth to="/#Connect">
@@ -261,7 +305,7 @@ const Nav = () => {
 								<button
 									onClick={() => navigate("/fineMentor")}
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border border-transparent hover:text-white  hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
+									className="   dark:bg-slate-900 text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border border-transparent hover:text-white  hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
 								>
 									<MdOutlinePersonalInjury />
 									<span> Find Mentor </span>
@@ -269,11 +313,31 @@ const Nav = () => {
 								{/* contact */}
 								<button
 									type="button"
-									className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent hover:text-white    hover:bg-Nav_text_hover_color      dark:hover:bg-slate-700 dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none "
+									className="   dark:bg-slate-900 text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent hover:text-white       hover:bg-Nav_text_hover_color      dark:hover:bg-slate-900 dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none "
 								>
 									<AiTwotoneContacts />
 									<span> Contact </span>
 								</button>
+
+								{/* DARK MODE SHOWING ON SMALL DEVICES  */}
+								{/* LIGHT AND  DARK MODE */}
+								<div className="relative inline-block ">
+									<div className="inline-flex justify-center    dark:bg-slate-900 dark:shadow-sm dark:bg-nav_dark_bg_color  items-center space-x-5  font-semibold focus:outline-none     mt-10 py-2 leading-5 text-2xl rounded    text-gray-600    ">
+										{/* Looping through all the icons */}
+										{options.map((opt) => (
+											<button
+												onClick={() => setTheme(opt.text)}
+												key={opt.text}
+												className={`h-8 w-8 ${
+													theme === opt.text && "text-primary"
+												}  `}
+											>
+												<ion-icon name={opt.icons}></ion-icon>
+											</button>
+										))}
+									</div>
+								</div>
+								{/* END OF DARK MODE */}
 							</nav>
 						</div>
 						{/* END Mobile Navigation */}
