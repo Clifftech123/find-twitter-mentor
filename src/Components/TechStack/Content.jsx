@@ -12,7 +12,7 @@ const Content = () => {
 							{/* HEADING */}
 							<div>
 								<h1 className="text-3xl font-bold  leading-relaxed tracking-wide text-gray-800 capitalize lg:text-4xl dark:text-white">
-									Why do you Tech Stack
+									Why do you Tech Stack?
 								</h1>
 
 								<div className="mt-2">
