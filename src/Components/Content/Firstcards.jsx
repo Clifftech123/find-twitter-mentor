@@ -15,11 +15,11 @@ const FirstCards = () => {
   return (
 		<div>
 			{/* Features Section: Boxes with Icons */}
-			<div className="   bg-Nav_Bg_Color    dark:bg-Dark_bg_color  duration-100">
+			<div className="   bg-white    dark:bg-Dark_bg_color  duration-100">
 				<div className="container xl:max-w-7xl mx-auto px-4 py-1  lg:py-32">
 					<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2">
 						{/* FONT-EDN DEVELOPER */}
-						<div className="p-5 leading-relaxed  tracking-wide bg-white   dark:bg-gray-900   dark:hover:shadow-lg    hover:shadow-xl shadow-sm  rounded-lg">
+						<div className="p-5 leading-relaxed  tracking-wide bg-white   dark:bg-gray-900  border  dark:hover:shadow-lg    hover:shadow-xl shadow-md   border-gray-100 rounded-lg">
 							{/* FRONDE ICON */}
 							<BsCodeSlash
 								className="text-primary mb-5 hi-outline hi-template inline-block
@@ -40,7 +40,7 @@ const FirstCards = () => {
 							</p>
 						</div>
 						{/* BACK-END DEVELOPMENT */}
-						<div className="p-5 leading-relaxed   tracking-wide bg-white     dark:bg-gray-900      hover:shadow-xl shadow-sm transition rounded-lg">
+						<div className="p-5 leading-relaxed   tracking-wide bg-white     dark:bg-gray-900      hover:shadow-xl shadow-md   border-gray-100  transition rounded-lg">
 							{/* BACK-END ICON */}
 							<IoCodeDownloadSharp
 								className="text-primary mb-5 hi-outline hi-template inline-block
@@ -61,7 +61,7 @@ const FirstCards = () => {
 						</div>
 						{/* FULL-STACK */}
 
-						<div className="p-5 bg-white  leading-relaxed   tracking-wide   dark:bg-gray-900     dark:hover:shadow-lg     hover:shadow-xl shadow-sm  transition rounded-lg">
+						<div className="p-5 bg-white  leading-relaxed   tracking-wide   dark:bg-gray-900     dark:hover:shadow-lg     hover:shadow-xl shadow-md   border-gray-100   transition rounded-lg">
 							{/* FULL-STACK ICON */}
 							<BsCodeSquare
 								className="text-primary  mb-5 hi-outline hi-template inline-block
@@ -84,7 +84,7 @@ const FirstCards = () => {
 						{/* SECOND CARDS  */}
 						{/* MOBILE APP DEVELOPMENT */}
 
-						<div className="p-5 bg-white   dark:bg-gray-900     dark:hover:shadow-lg     hover:shadow-xl shadow-sm  transition rounded-lg">
+						<div className="p-5 bg-white   dark:bg-gray-900     dark:hover:shadow-lg     hover:shadow-xl shadow-md   border-gray-100   transition rounded-lg">
 							{/* MOBILE ICON */}
 							<SiAndroidstudio className="text-primary  mb-5 hi-outline hi-template inline-block  w-12 h-12" />
 							<h4 className="text-lg font-semibold  text-gray-600   mb-2 2 dark:text-gray-300">
@@ -102,7 +102,7 @@ const FirstCards = () => {
 							</p>
 						</div>
 						{/* DATA SCIENCE */}
-						<div className="p-5 bg-white  leading-relaxed   tracking-wide     dark:bg-gray-900     dark:hover:shadow-lg  border-gray-100   hover:shadow-xl shadow-sm   transition rounded-lg">
+						<div className="p-5 bg-white  leading-relaxed   tracking-wide     dark:bg-gray-900     dark:hover:shadow-lg  border-gray-100   hover:shadow-xl shadow-md     transition rounded-lg">
 							{/* DATA SCIENCE ICON */}
 							<BiData className="text-primary mb-5 hi-outline hi-template inline-block  w-12 h-12" />
 							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-300">
@@ -120,7 +120,7 @@ const FirstCards = () => {
 							</p>
 						</div>
 						{/* DEVOPS */}
-						<div className="p-5 bg-white  leading-relaxed   tracking-wide   dark:border-gray-700  dark:bg-gray-900   shadow-sm    hover:shadow-xl   dark:hover:shadow-lg  transition rounded-lg ">
+						<div className="p-5 bg-white  leading-relaxed   tracking-wide   dark:border-gray-700  dark:bg-gray-900  shadow-md   border-gray-100     hover:shadow-xl   dark:hover:shadow-lg  transition rounded-lg ">
 							<AiOutlineCloudServer className="text-primary mb-5 hi-outline hi-template inline-block  w-12 h-12" />
 							<h4 className="text-lg font-semibold   text-gray-600  mb-2 dark:text-gray-300">
 								DevOps Developer
