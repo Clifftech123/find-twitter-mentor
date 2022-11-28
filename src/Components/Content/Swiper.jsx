@@ -109,7 +109,7 @@ const SwiperComponent = () => {
 
 				{/* SHOWING ON SMALL DEVICE */}
 				<div className="  sm:hidden ">
-					<p className="  dark:bg-Dark_bg_color  text-lg shadow-sm rounded-md p-5 font-Poppins md:py-10  md:h-5/6  text-gray-500 md:text-white dark:text-gray-400  leading-relaxed  tracking-wide">
+					<p className="  dark:bg-Dark_bg_color  leading-relaxed  text-md shadow-sm rounded-md p-5 font-Poppins md:py-10  md:h-5/6  text-gray-500 md:text-white dark:text-gray-400  max-w-lg mt-6 ">
 						An important part of being a software developer is continuing your
 						education. There are always new tools to acquire and better ways of
 						developing software. Software developers need to spend a
@@ -135,7 +135,6 @@ const SwiperComponent = () => {
 								className="bg-blue-700 p-2 rounded-lg mt-3 text-white w-full "
 								onClick={() => SetTextShow(!TextShow)}
 							>
-							
 								{TextShow ? <span> Show Less </span> : <span> Show More </span>}
 							</button>
 						</div>
