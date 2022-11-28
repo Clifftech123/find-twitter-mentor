@@ -202,7 +202,7 @@ const Nav = () => {
 								<div className="lg:hidden">
 									<button
 										type="button"
-										className="inline-flex transition  duration-400 justify-center items-center space-x-2  font-semibold focus:outline-none px-3 py-2 leading-6 rounded dark:bg-gray-300  bg-white text-gray-800  hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300  focus:ring-opacity-25 active:bg-white  active:shadow-none"
+										className="flex transition  duration-400 justify-center items-center space-x-2  font-semibold focus:outline-none px-3 py-2 leading-6 rounded dark:bg-gray-300  bg-white text-gray-800  hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300  focus:ring-opacity-25 active:bg-white  active:shadow-none"
 										onClick={() => setMobileNavOpen(!mobileNavOpen)}
 									>
 										{mobileNavOpen ? (
@@ -244,15 +244,15 @@ const Nav = () => {
 						{/* Mobile view Navigation This section will show on only mobile devices */}
 						<div
 							ref={menuRef}
-							className={`     dark:bg-slate-900   bg-white shadow-2xl   fixed top-0 z-50  w-2/3 h-screen  md:hidden flex flex-col gap-10  text-medium  p-7 pt-20 right-0  duration-500lg:hidden ${
-								mobileNavOpen ? "right-0 text-center" : "right-[-100%]"
+							className={`    dark:bg-slate-900   bg-white shadow-2xl   fixed top-0 z-50  w-2/3 h-screen  md:hidden flex flex-col gap-10  text-medium  p-7 pt-10 right-0  duration-500lg:hidden ${
+								mobileNavOpen ? "right- text-center" : "right-[-100%]"
 							}`}
 						>
 							{/* Toggle Mobile Navigation  on small device */}
 							<div className="md:hidden   dark:bg-slate-900 ">
 								<button
 									type="button"
-									className="inline-flex  dark:bg-slate-900   transition  duration-400 justify-center items-center space-x-2  font-semibold focus:outline-none px-3 py-2 leading-6 rounded    text-gray-800 shadow-sm hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:shadow focus:ring focus:ring-gray-200 focus:ring-opacity-25 "
+									className="flex   dark:bg-slate-900   transition  duration-400 justify-center items-center space-x-2  font-semibold focus:outline-none px-3 py-2 leading-6 rounded    text-gray-800  hover:text-gray-800  hover:border-gray-300  focus:ring focus:ring-gray-200 focus:ring-opacity-25 "
 									onClick={() => setMobileNavOpen(!mobileNavOpen)}
 								>
 									{mobileNavOpen ? (
