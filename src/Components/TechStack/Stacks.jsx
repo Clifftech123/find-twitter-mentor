@@ -54,7 +54,7 @@ const Stacks = () => {
 							</p>
 
 							{/*  LAMP  Langues Icons  */}
-							<div className="flex flex-row  space-x-40">
+							<div className="flex flex-row  space-x-20  md:space-x-32">
 								{/* Linux */}
 								<div className="flex items-center mt-8 -mx-2">
 									<img
@@ -89,7 +89,7 @@ const Stacks = () => {
 							</div>
 
 							{/* second row  icons */}
-							<div className="flex flex-row space-x-40">
+							<div className="flex flex-row space-x-20  md:space-x-32">
 								{/* MySQL */}
 								<div className="flex items-center mt-8 -mx-2">
 									<img
@@ -141,7 +141,7 @@ const Stacks = () => {
 							</p>
 
 							{/*  MERN STCK  Langues Icons  */}
-							<div className="flex flex-row  space-x-40">
+							<div className="flex flex-row space-x-20  md:space-x-32 ">
 								{/* MongoDB */}
 								<div className="flex items-center mt-8 -mx-2">
 									<img
@@ -176,7 +176,7 @@ const Stacks = () => {
 							</div>
 
 							{/* second row  */}
-							<div className="flex flex-row space-x-40">
+							<div className="flex flex-row   space-x-20  md:space-x-32">
 								{/*  Angular js */}
 								<div className="flex items-center mt-8 -mx-2">
 									<img
@@ -228,7 +228,7 @@ const Stacks = () => {
 							</p>
 
 							{/*  MERN STCK  Langues Icons  */}
-							<div className="flex flex-row  space-x-40">
+							<div className="flex flex-row space-x-20  md:space-x-32">
 								{/* React.js */}
 								<div className="flex items-center mt-8 -mx-2">
 									<img
@@ -263,7 +263,7 @@ const Stacks = () => {
 							</div>
 
 							{/* second row  */}
-							<div className="flex flex-row space-x-40">
+							<div className=" flex flex-row space-x-20  md:space-x-32 ">
 								{/*  Node */}
 								<div className="flex items-center mt-8 -mx-2">
 									<img
@@ -281,7 +281,7 @@ const Stacks = () => {
 								</div>
 
 								{/* Express.js */}
-								<div className="flex items-center mt-8 -mx-2">
+								<div className="flex items-center mt-8 -mx-5">
 									<img
 										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10  shrink-0  ring-4 ring-gray-300 dark:ring-gray-700"
 										src={express}
