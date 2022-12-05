@@ -15,11 +15,11 @@ const FirstCards = () => {
   return (
 		<div>
 			{/* Features Section: Boxes with Icons */}
-			<div className="   bg-white    dark:bg-Dark_bg_color  duration-100">
+			<div className="  bg-Nav_Bg_Color     dark:bg-Dark_bg_color  duration-100">
 				<div className="container xl:max-w-7xl mx-auto px-4 py-1  lg:py-32">
 					<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-2">
 						{/* FONT-EDN DEVELOPER */}
-						<div className="p-5 leading-relaxed  tracking-wide bg-white   dark:bg-gray-900  border  dark:hover:shadow-lg    hover:shadow-xl shadow-md   border-gray-100 rounded-lg">
+						<div className="p-5 leading-relaxed  tracking-wide bg-white   dark:bg-gray-900  border  dark:hover:shadow-lg    hover:shadow-xl shadow-md  dark:border-none  border-gray-100 rounded-lg">
 							{/* FRONDE ICON */}
 							<BsCodeSlash
 								className="text-primary mb-5 hi-outline hi-template inline-block
