@@ -1,3 +1,7 @@
+// This component contain the Here information of the Tech stack component
+
+
+
 import React from "react";
 
 
