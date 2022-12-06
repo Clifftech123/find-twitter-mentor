@@ -81,11 +81,11 @@ const Stacks = () => {
 							</p>
 
 							{/*  LAMP  Langues Icons  */}
-							<div className="flex flex-row  space-x-20  md:space-x-32">
+							<div className="flex flex-row  space-x-20  align-middle  md:space-x-32 justify-center  ">
 								{/* Linux */}
-								<div className="flex items-center mt-8 -mx-2">
+								<div className="flex items-center mt-8 ">
 									<img
-										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10 sm:ml-10 shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
+										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={Linux}
 										alt="Linux"
 									/>
@@ -98,7 +98,7 @@ const Stacks = () => {
 								</div>
 
 								{/* Apache  */}
-								<div className="flex items-center  mt-8 -mx-2">
+								<div className="flex items-center  mt-8 ">
 									<img
 										className="object-cover  bg-white mx-2 rounded-full  shrink-0 sm:h-20 h-10 sm:w-20 w-10  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={Apache}
@@ -114,11 +114,11 @@ const Stacks = () => {
 							</div>
 
 							{/* second row  icons */}
-							<div className="flex flex-row space-x-20  md:space-x-32">
+							<div className="flex flex-row space-x-20 md:space-x-32  align-middle justify-center">
 								{/* MySQL */}
-								<div className="flex items-center mt-8 -mx-2">
+								<div className="flex items-center mt-8   ">
 									<img
-										className="object-cover sm:h-20 h-10 sm:w-20 w-10 sm:ml-10 mx-2 rounded-full  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
+										className="object-cover sm:h-20 h-10 sm:w-20 w-10  mx-2 rounded-full  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={MySQL}
 										alt="MySQl"
 									/>
@@ -131,7 +131,7 @@ const Stacks = () => {
 								</div>
 
 								{/* PHP */}
-								<div className="flex items-center mt-8 -mx-2">
+								<div className="flex items-center mt-8 ">
 									<img
 										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={PHP}
@@ -149,7 +149,7 @@ const Stacks = () => {
 							<button
 								onClick={() => setModalOpen(true)}
 								type="button"
-								className="bg-blue-700 text-white w-full  mt-20 p-2.5 dark:bg-blue-900 rounded-2xl"
+								className="bg-blue-800  hover:bg-blue-700  text-white w-full  mt-10 p-2.5 dark:bg-blue-900 rounded-lg"
 							>
 								Read More
 							</button>
@@ -157,7 +157,7 @@ const Stacks = () => {
 						{/* END OF LAMP STACK  */}
 						{/* ==== SECOND CARD  MEAN STACK   ===== */}
 						{/* MEAN STACK */}
-						<div className="p-5   leading-relaxed   tracking-wide    dark:border-gray-700   dark:bg-gray-900      border-gray-100    border-2      shadow-lg     transition rounded-lg">
+						<div className="p-5    leading-relaxed   tracking-wide    dark:border-gray-700   dark:bg-gray-900      border-gray-100    border-2      shadow-lg     transition rounded-lg">
 							{/* LAMP  STACK */}
 
 							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-300">
@@ -171,11 +171,11 @@ const Stacks = () => {
 							</p>
 
 							{/*  MERN STACK  Langues Icons  */}
-							<div className="flex flex-row space-x-20  md:space-x-32 ">
+							<div className="flex flex-row  space-x-20  align-middle md:space-x-32  justify-center ">
 								{/* MongoDB */}
-								<div className="flex items-center mt-8 -mx-2">
+								<div className="flex items-center mt-8 ">
 									<img
-										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10 sm:ml-10 shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
+										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={MongoDB}
 										alt="MongoDB"
 									/>
@@ -188,7 +188,7 @@ const Stacks = () => {
 								</div>
 
 								{/* Express js   */}
-								<div className="flex items-center  mt-8 -mx-2">
+								<div className="flex items-center  mt-8 ">
 									<img
 										className="object-cover  mx-2 rounded-full  shrink-0 sm:h-20 h-10 sm:w-20 w-10  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={Expressjs}
@@ -197,31 +197,31 @@ const Stacks = () => {
 
 									<div className="mx-2">
 										<h1 className="font-semibold text-sm md:text-md text-gray-800 dark:text-white">
-											Express.js
+											Express
 										</h1>
 									</div>
 								</div>
 							</div>
 
 							{/* second row  */}
-							<div className="flex flex-row   space-x-20  md:space-x-32">
+							<div className="flex flex-row  align-middle  space-x-20  md:space-x-32 justify-center ">
 								{/*  Angular js */}
-								<div className="flex items-center mt-8 -mx-2">
+								<div className="flex items-center mt-8 ">
 									<img
-										className="object-cover sm:h-20 h-10 sm:w-20 w-10 sm:ml-10 mx-2 rounded-full  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
+										className="object-cover sm:h-20 h-10 sm:w-20 w-10  mx-2 rounded-full  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={Angularjs}
 										alt=" Angularjs"
 									/>
 
 									<div className="mx-2">
 										<h1 className="font-semibold text-gray-800 dark:text-white">
-											Angular.js
+											Angular
 										</h1>
 									</div>
 								</div>
 
 								{/* Node.js server */}
-								<div className="flex items-center mt-8 -mx-2">
+								<div className="flex items-center mt-8 ">
 									<img
 										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={Nodejs}
@@ -230,7 +230,7 @@ const Stacks = () => {
 
 									<div className="mx-2">
 										<h1 className="font-semibold text-gray-800 dark:text-white">
-											Node.js
+											Node
 										</h1>
 									</div>
 								</div>
@@ -239,7 +239,7 @@ const Stacks = () => {
 							<button
 								onClick={() => setMeanOpen(true)}
 								type="button"
-								className="bg-blue-700 text-white w-full  mt-20 p-2.5 dark:bg-blue-900 rounded-2xl"
+								className="bg-blue-800 text-white w-full   hover:bg-blue-700  mt-10 p-2.5 dark:bg-blue-900 rounded-lg"
 							>
 								Read More
 							</button>
@@ -262,18 +262,18 @@ const Stacks = () => {
 							</p>
 
 							{/*  MERN STCK  Langues Icons  */}
-							<div className="flex flex-row space-x-20  md:space-x-32">
+							<div className="flex flex-row space-x-20  md:space-x-32  justify-center   ">
 								{/* React.js */}
-								<div className="flex items-center mt-8 -mx-2">
+								<div className="flex items-center mt-8 ">
 									<img
-										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10 sm:ml-10 shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
+										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={ReactJs}
 										alt="ReactJs"
 									/>
 
 									<div className="mx-2">
 										<h1 className="font-semibold text-gray-800 dark:text-white">
-											React.js
+											React
 										</h1>
 									</div>
 								</div>
@@ -295,11 +295,11 @@ const Stacks = () => {
 							</div>
 
 							{/* second row  */}
-							<div className=" flex flex-row space-x-20  md:space-x-32 ">
+							<div className=" flex flex-row space-x-20  md:space-x-32  justify-center ">
 								{/*  Node */}
 								<div className="flex items-center mt-8 -mx-2">
 									<img
-										className="object-cover sm:h-20 h-10 sm:w-20 w-10 sm:ml-10 mx-2 rounded-full  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
+										className="object-cover sm:h-20 h-10 sm:w-20 w-10  mx-2 rounded-full  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={node}
 										alt=" Node js"
 									/>
@@ -312,7 +312,7 @@ const Stacks = () => {
 								</div>
 
 								{/* Express.js */}
-								<div className="flex items-center mt-8 -mx-5">
+								<div className="flex items-center mt-8  ">
 									<img
 										className="object-cover mx-2 rounded-full sm:h-20 h-10 sm:w-20 w-10  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={express}
@@ -321,7 +321,7 @@ const Stacks = () => {
 
 									<div className="mx-2">
 										<h1 className="font-semibold text-gray-800 dark:text-white">
-											Express.js
+											Express
 										</h1>
 									</div>
 								</div>
@@ -330,7 +330,7 @@ const Stacks = () => {
 							<button
 								onClick={() => setMernOpen(true)}
 								type="button"
-								className="bg-blue-700 text-white w-full  mt-20 p-2.5 dark:bg-blue-900 rounded-2xl"
+								className="bg-blue-800 text-white w-full   hover:bg-blue-700  mt-10 p-2.5 dark:bg-blue-900 rounded-lg"
 							>
 								Read More
 							</button>
@@ -352,7 +352,7 @@ const Stacks = () => {
 							</p>
 
 							{/*  JAVA  STCK  Langues Icons  */}
-							<div className="flex flex-row space-x-20  md:space-x-32">
+							<div className="flex flex-row space-x-20 justify-center  md:space-x-32">
 								{/* JAVA */}
 								<div className="flex items-center mt-8 -mx-2">
 									<img
@@ -385,7 +385,7 @@ const Stacks = () => {
 							</div>
 
 							{/* second row  */}
-							<div className=" flex flex-row space-x-20  md:space-x-32 ">
+							<div className=" flex flex-row space-x-20  justify-center md:space-x-32 ">
 								{/*  Wildfly */}
 								<div className="flex items-center mt-8 -mx-2">
 									<img
@@ -420,7 +420,7 @@ const Stacks = () => {
 							<button
 								onClick={() => setJavaOpen(true)}
 								type="button"
-								className="bg-blue-700 text-white w-full  mt-20 p-2.5 dark:bg-blue-900 rounded-2xl"
+								className="bg-blue-800 text-white w-full  hover:bg-blue-700 mt-10 p-2.5 dark:bg-blue-900 rounded-lg"
 							>
 								Read More
 							</button>
