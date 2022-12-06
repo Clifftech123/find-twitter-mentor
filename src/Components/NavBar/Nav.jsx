@@ -81,7 +81,7 @@ const Nav = () => {
 					id="page-header"
 					className="  
 
-						 flex flex-none items-center dark:text-gray-100 dark:bg-nav_dark_bg_color duration-100 bg-Nav_Bg_Color   shadow-5xl z-1"
+						 flex flex-none items-center fixed top-0 left-0 right-0 dark:text-gray-100 dark:bg-nav_dark_bg_color duration-100 bg-Nav_Bg_Color   shadow-5xl z-50"
 				>
 					<div className="container xl:max-w-7xl mx-auto px-4 lg:px-8">
 						<div className="flex justify-between py-4">
