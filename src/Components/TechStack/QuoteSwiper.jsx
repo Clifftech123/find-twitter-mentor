@@ -17,7 +17,7 @@ const QuoteSwiper = () => {
 
   return (
 		<>
-			<div className='py-20'>
+			<div className='py-40gt'>
 				<Swiper
 					pagination={pagination}
 					modules={[Pagination]}
