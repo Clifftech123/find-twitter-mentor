@@ -65,23 +65,23 @@ const Stacks = () => {
 
 	return (
 		<>
-			<section className=" bg-white    dark:bg-Dark_bg_color  duration-100">
+			<section className=" bg-gray-50    dark:bg-Dark_bg_color  duration-100">
 				{/* MAIN CONTAINER */}
 				<div className="container xl:max-w-7xl mx-auto px-4 py-1  lg:py-10">
 					<div className="grid grid-cols-1 gap-10  sm:grid-cols-1 lg:grid-cols-2">
 						{/* LAMP  STACK */}
 						<div className="p-5 bg-white  leading-relaxed   tracking-wide   dark:border-gray-700    dark:bg-gray-900     border-gray-100 shadow-sm   border-2     transition rounded-lg">
-							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-300">
+							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-50">
 								LAMP STACK
 							</h4>
-							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-400  text-gray-600">
+							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-50  text-gray-600">
 								LAMP is an industry-standard when it comes to tech stack models.
 								In web development, it delivers the best cost efficiency,
 								flexibility, and performance. It is an acronym that stands for:
 							</p>
 
 							{/*  LAMP  Langues Icons  */}
-							<div className="flex flex-row  space-x-20  align-middle  md:space-x-32 justify-center  ">
+							<div className="flex flex-row   space-x-20  align-middle  md:space-x-32 justify-center  ">
 								{/* Linux */}
 								<div className="flex items-center mt-8 ">
 									<img
@@ -114,9 +114,9 @@ const Stacks = () => {
 							</div>
 
 							{/* second row  icons */}
-							<div className="flex flex-row space-x-20 md:space-x-32  align-middle justify-center">
+							<div className="flex  flex-row space-x-20 md:space-x-32  align-middle justify-center">
 								{/* MySQL */}
-								<div className="flex items-center mt-8   ">
+								<div className="flex items-center mt-8    ">
 									<img
 										className="object-cover sm:h-20 h-10 sm:w-20 w-10  mx-2 rounded-full  shrink-0  ring-2 ring-gray-300 dark:ring-gray-700"
 										src={MySQL}
@@ -157,13 +157,13 @@ const Stacks = () => {
 						{/* END OF LAMP STACK  */}
 						{/* ==== SECOND CARD  MEAN STACK   ===== */}
 						{/* MEAN STACK */}
-						<div className="p-5    leading-relaxed   tracking-wide    dark:border-gray-700   dark:bg-gray-900      border-gray-100    border-2      shadow-lg     transition rounded-lg">
+						<div className="p-5  bg-white  leading-relaxed   tracking-wide    dark:border-gray-700   dark:bg-gray-900  border-gray-100    border-2  shadow-sm  transition rounded-lg">
 							{/* LAMP  STACK */}
 
-							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-300">
+							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-50">
 								MEAN STACK
 							</h4>
-							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-400  text-gray-600">
+							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-50  text-gray-600">
 								One of the well-known tech stacks, MEAN brings numerous benefits
 								to web developers. Among these benefits are the use of a single
 								language (JavaScript) and the underlying technologies are open
@@ -247,13 +247,13 @@ const Stacks = () => {
 						{/*  END OF THE SECOND CARD  MEAN STACK */}
 						{/*============= THIRD CARD MERN STCK============ */}
 						{/* MERN  STACK */}
-						<div className="p-5 b  leading-relaxed   tracking-wide     dark:bg-gray-900   dark:border-gray-700   border-gray-100    border-2      shadow-lg    transition rounded-lg">
+						<div className="p-5 b  bg-white leading-relaxed   tracking-wide     dark:bg-gray-900   dark:border-gray-700   border-gray-100    border-2      shadow-sm    transition rounded-lg">
 							{/* LAMP  STACK */}
 
-							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-300">
+							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-50">
 								MERN STACK
 							</h4>
-							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-400  text-gray-600">
+							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-50  text-gray-600">
 								Essentially MERN is similar to MEAN. The difference is that you
 								change Angular.js with React. The key benefits of using MERN are
 								the React integration, the ability to use codes on browsers and
@@ -337,13 +337,13 @@ const Stacks = () => {
 						</div>
 						{/* END OF THE  THIRD CARD MERN STACK */}
 						{/* ===== FOURTH CARD  JAVA STACK ===== */}
-						<div className="p-5 b  leading-relaxed   tracking-wide     dark:bg-gray-900   dark:border-gray-700   border-gray-100    border-2      shadow-lg     transition rounded-lg">
+						<div className="p-5 bg-white  leading-relaxed   tracking-wide     dark:bg-gray-900   dark:border-gray-700   border-gray-100    border-2      shadow-sm     transition rounded-lg">
 							{/* JAVA STACK */}
 
-							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-300">
+							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-50">
 								JAVA STACK
 							</h4>
-							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-400  text-gray-600">
+							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-50  text-gray-600">
 								Java is not as popular as it once used to be. It is popular for
 								enterprise applications but many new projects tend to gravitate
 								to newer and lighter weight application stacks like Node.js and
