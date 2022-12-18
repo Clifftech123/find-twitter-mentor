@@ -47,7 +47,7 @@ const Content = () => {
 										Dependability
 									</h1>
 
-									<p className="mt-3  leading-relaxed tracking-wide text-gray-500 dark:text-gray-300">
+									<p className="mt-3  leading-relaxed tracking-wide text-gray-500 dark:text-gray-50">
 										Technologies that create stacks may be common which means
 										that the developer community has experience and information
 										you can use. Selecting the correct tools, with multiple
@@ -84,7 +84,7 @@ const Content = () => {
 										Scalability
 									</h1>
 
-									<p className="mt-3   leading-relaxed tracking-wide text-gray-500 dark:text-gray-300">
+									<p className="mt-3   leading-relaxed tracking-wide text-gray-500 dark:text-gray-50">
 										An effective technology stack allows you to add more storage
 										and users quickly and simply with scalability that adapts as
 										needs change. IT professionals may use multiple frameworks
@@ -127,7 +127,7 @@ const Content = () => {
 										Performance and speed
 									</h1>
 
-									<p className="mt-3  leading-relaxed tracking-wide text-gray-500 dark:text-gray-300">
+									<p className="mt-3  leading-relaxed tracking-wide text-gray-500 dark:text-gray-50">
 										Creating websites and applications using certain frameworks
 										can help them run efficiently and perform reliably for end
 										users. Technologies that you select carefully can also help
