@@ -27,7 +27,7 @@ const Inspiration = () => {
 								Why do you need to learn how to code?
 							</h1>
 							{/* TEXT CONTENT */}
-							<p class="max-w-lg mt-6 text-gray-500 dark:text-gray-400 ">
+							<p class="max-w-lg mt-6 text-gray-500 dark:text-gray-100 ">
 								“Whether you want to uncover the secrets of the universe, or you
 								want to pursue a career in the 21st century, basic computer
 								programming is an essential skill to learn ”
@@ -60,10 +60,10 @@ const Inspiration = () => {
 					{/* QUESTIONS */}
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 ">
 						<div className="     dark:bg-gray-900   bg-Nav_Bg_Color   p-5    text-gray-600 tracking-wide leading-relaxed">
-							<h4 className="font-bold dark:text-gray-300">
+							<h4 className="font-bold dark:text-gray-100">
 								Am I old to start learn how to code?
 							</h4>
-							<p className=" dark:text-gray-400">
+							<p className=" dark:text-gray-100">
 								Are You Too Old to Learn Programming? Let's get this out of the
 								way: no, you are not too old to program. There isn't an age
 								limit on learning to code, and there never was. But all too
@@ -72,10 +72,10 @@ const Inspiration = () => {
 							</p>
 						</div>
 						<div className="   dark:bg-gray-900 bg-Nav_Bg_Color    p-5  text-gray-600 tracking-wide leading-relaxed">
-							<h4 className="font-bold  dark:text-gray-300">
+							<h4 className="font-bold  dark:text-gray-100">
 								Do I need degree Start coding ?
 							</h4>
-							<p className=" dark:text-gray-400">
+							<p className=" dark:text-gray-100">
 								Modern employers aren’t looking for people who have a degree in
 								coding. They are more focused on portfolio examples and coding
 								tests. They want to know that you can do the job, not if you
@@ -86,17 +86,17 @@ const Inspiration = () => {
 							<h4 className="font-bold  dark:text-gray-300">
 								How Long Does It Take to Learn Coding ?
 							</h4>
-							<p className=" dark:text-gray-400">
+							<p className=" dark:text-gray-100">
 								Most coders agree that it takes three to six months to be
 								comfortable with the basics of coding. But you can learn coding
 								faster or slower depending on your preferred pace.
 							</p>
 						</div>
 						<div className="  dark:bg-gray-900   bg-Nav_Bg_Color   p-5   text-gray-600 tracking-wide leading-relaxed">
-							<h4 className="font-bold  dark:text-gray-300">
+							<h4 className="font-bold  dark:text-gray-100">
 								Skills Needed for Coding ?
 							</h4>
-							<p className=" dark:text-gray-400">
+							<p className=" dark:text-gray-100">
 								Coding is a skill you’ll have for life. There’s no limit to what
 								can be automated by putting together lines of code in the right
 								programming language. But when you’re just starting out, it can
@@ -106,10 +106,10 @@ const Inspiration = () => {
 							</p>
 						</div>
 						<div className="   dark:bg-gray-900   bg-Nav_Bg_Color    p-5  text-gray-600 tracking-wide leading-relaxed">
-							<h4 className="font-bold  dark:text-gray-300">
+							<h4 className="font-bold  dark:text-gray-100">
 								Does it matter what operating system I use ?
 							</h4>
-							<p className=" dark:text-gray-400">
+							<p className=" dark:text-gray-100">
 								When it comes to learning to code for the first time. I think
 								what matters much more than which operating system you have, is
 								that you get started learning as soon as possible with what you
@@ -117,11 +117,11 @@ const Inspiration = () => {
 							</p>
 						</div>
 						<div className="   dark:bg-gray-900  p-5    bg-Nav_Bg_Color    text-gray-600 tracking-wide leading-relaxed ">
-							<h4 className="font-bold  dark:text-gray-400">
+							<h4 className="font-bold  dark:text-gray-100">
 								How do IFigure out what to learn ?
 							</h4>
 
-							<p className=" dark:text-gray-400">
+							<p className=" dark:text-gray-100">
 								The most important thing is that you want to learn something
 								that interests you, because once you start learning, you’ll be
 								with this topic for a while. Choosing something just because
