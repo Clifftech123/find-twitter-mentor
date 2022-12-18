@@ -26,10 +26,10 @@ const FirstCards = () => {
                                w-12 h-12"
 							/>
 
-							<h4 className="text-lg text-gray-600 font-semibold   mb-2 dark:text-gray-300">
+							<h4 className="text-lg text-gray-600 font-semibold   mb-2 dark:text-gray-100">
 								Front-end Development
 							</h4>
-							<p className=" dark:text-gray-400 text-gray-600">
+							<p className=" dark:text-gray-100 text-gray-600">
 								Front-end web development, also known as client-side development
 								is the practice of producing HTML, CSS and JavaScript for a
 								website or Web Application so that a user can see and interact
@@ -46,10 +46,10 @@ const FirstCards = () => {
 								className="text-primary mb-5 hi-outline hi-template inline-block
                                w-12 h-12"
 							/>
-							<h4 className="text-lg font-semibold   text-gray-600 mb-2 dark:text-gray-300">
+							<h4 className="text-lg font-semibold   text-gray-600 mb-2 dark:text-gray-100">
 								Back-end Development
 							</h4>
-							<p className="leading-relaxed tracking-wide dark:text-gray-400 text-gray-600">
+							<p className="leading-relaxed tracking-wide dark:text-gray-100 text-gray-600">
 								Back-end development means working on server-side software,
 								which focuses on everything you can’t see on a website. Back-end
 								developers ensure the website performs correctly, focusing on
@@ -67,10 +67,10 @@ const FirstCards = () => {
 								className="text-primary  mb-5 hi-outline hi-template inline-block
                                w-12 h-12"
 							/>
-							<h4 className="text-lg font-semibold  text-gray-600  mb-2  dark:text-gray-300">
+							<h4 className="text-lg font-semibold  text-gray-600  mb-2  dark:text-gray-100">
 								Full-Stack Development
 							</h4>
-							<p className="leading-relaxed  tracking-wide dark:text-gray-400 text-gray-600">
+							<p className="leading-relaxed  tracking-wide dark:text-gray-100 text-gray-600">
 								A full-stack developer is a developer or engineer who can build
 								both the front end and the back end of a website. The front end
 								(the parts of a website a user sees and interacts with) and the
@@ -87,10 +87,10 @@ const FirstCards = () => {
 						<div className="p-5 bg-white   dark:bg-gray-900     dark:hover:shadow-lg     hover:shadow-xl shadow-md   border-gray-100   transition rounded-lg">
 							{/* MOBILE ICON */}
 							<SiAndroidstudio className="text-primary  mb-5 hi-outline hi-template inline-block  w-12 h-12" />
-							<h4 className="text-lg font-semibold  text-gray-600   mb-2 2 dark:text-gray-300">
+							<h4 className="text-lg font-semibold  text-gray-600   mb-2 2 dark:text-gray-100">
 								Mobile App Development
 							</h4>
-							<p className="leading-relaxed tracking-wide dark:text-gray-400 text-gray-600">
+							<p className="leading-relaxed tracking-wide dark:text-gray-100 text-gray-600">
 								Mobile application development is the set of processes and
 								procedures involved in writing software for small, wireless
 								computing devices, such as smartphones and other hand-held
@@ -105,10 +105,10 @@ const FirstCards = () => {
 						<div className="p-5 bg-white  leading-relaxed   tracking-wide     dark:bg-gray-900     dark:hover:shadow-lg  border-gray-100   hover:shadow-xl shadow-md     transition rounded-lg">
 							{/* DATA SCIENCE ICON */}
 							<BiData className="text-primary mb-5 hi-outline hi-template inline-block  w-12 h-12" />
-							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-300">
+							<h4 className="text-lg  mb-2  text-gray-600 font-semibold   dark:text-gray-100">
 								Data Science
 							</h4>
-							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-400  text-gray-600">
+							<p className="leading-relaxed font-Poppins tracking-wide dark:text-gray-100  text-gray-600">
 								Data science combines math and statistics, specialized
 								programming, advanced analytics, artificial intelligence (AI),
 								and machine learning with specific subject matter expertise to
@@ -122,10 +122,10 @@ const FirstCards = () => {
 						{/* DEVOPS */}
 						<div className="p-5 bg-white  leading-relaxed   tracking-wide   dark:border-gray-700  dark:bg-gray-900  shadow-md   border-gray-100     hover:shadow-xl   dark:hover:shadow-lg  transition rounded-lg ">
 							<AiOutlineCloudServer className="text-primary mb-5 hi-outline hi-template inline-block  w-12 h-12" />
-							<h4 className="text-lg font-semibold   text-gray-600  mb-2 dark:text-gray-300">
+							<h4 className="text-lg font-semibold   text-gray-600  mb-2 dark:text-gray-100">
 								DevOps Developer
 							</h4>
-							<p className="leading-relaxed tracking-wide font-Poppins  dark:text-gray-400  text-gray-600">
+							<p className="leading-relaxed tracking-wide font-Poppins  dark:text-gray-100  text-gray-600">
 								DevOps is the software development strategy and it involves a
 								lot of development, testing and deployment of technologies. A
 								DevOps Developer is someone who will have a full understanding
