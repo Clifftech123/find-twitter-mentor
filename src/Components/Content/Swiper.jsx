@@ -31,7 +31,7 @@ const SwiperComponent = () => {
 		"https://images.unsplash.com/photo-1573167710701-35950a41e251?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80";
 	return (
 		<>
-			<div className="    dark:bg-Dark_bg_color px-5 sm:px-20 grid grid-cols-1   md:gap-20 gap-5 sm:grid-cols-1 lg:grid-cols-2">
+			<div className=" bg-white   dark:bg-Dark_bg_color px-5 sm:px-20 grid grid-cols-1   md:gap-20 gap-5 sm:grid-cols-1 lg:grid-cols-2">
 				{/* SWIPER WITH IMAGES */}
 				<div>
 					<Swiper
@@ -93,7 +93,7 @@ const SwiperComponent = () => {
 
 				{/* TEXT  */}
 				<div className=" hidden sm:block ">
-					<p className="  dark:bg-Dark_bg_color  text-lg   p-5 font-Poppins md:py-10  md:h-5/6  text-gray-500    dark:text-gray-100  leading-relaxed  tracking-wide">
+					<p className="  dark:bg-Dark_bg_color bg-white  text-lg   p-5 font-Poppins md:py-10  md:h-5/6  text-gray-500    dark:text-gray-100  leading-relaxed  tracking-wide">
 						An important part of being a software developer is continuing your
 						education. There are always new tools to acquire and better ways of
 						developing software. Software developers need to spend a
@@ -109,7 +109,7 @@ const SwiperComponent = () => {
 
 				{/* SHOWING ON SMALL DEVICE */}
 				<div className="  sm:hidden ">
-					<p className="  dark:bg-Dark_bg_color  leading-relaxed  text-md shadow-sm rounded-md p-5 font-Poppins md:py-10  md:h-5/6  text-gray-500 md:text-white dark:text-gray-100  max-w-lg mt-6 ">
+					<p className="  dark:bg-Dark_bg_color bg-white  leading-relaxed  text-md shadow-sm rounded-md p-5 font-Poppins md:py-10  md:h-5/6  text-gray-500 md:text-white dark:text-gray-100  max-w-lg mt-6 ">
 						An important part of being a software developer is continuing your
 						education. There are always new tools to acquire and better ways of
 						developing software. Software developers need to spend a

@@ -16,7 +16,10 @@ const Footer = () => {
 
     return (
 			<>
-				<div   id='Connect' className=" dark:bg-nav_dark_bg_color py-2  mt-10  bg-Dark_bg_color ">
+				<div
+					id="Connect"
+					className=" bg-dark:bg-nav_dark_bg_color py-2  mt-10  bg-Dark_bg_color bg- "
+				>
 					<div className="  dark:bg-nav_dark_bg_color mt-3 dark:text-white  align-middle text-white leading-loose tracking-wider    justify-center text-center  ">
 						<div className="">
 							<h4> Made by : Isaiah Clifford Opoku </h4>
