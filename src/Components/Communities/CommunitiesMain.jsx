@@ -1,11 +1,14 @@
 
 import React from 'react'
+import Content from './Content';
+import Hero from './Hero';
 
 const CommunitiesMain = () => {
   return (
-    <div className='container text-center'>
-       Welcome to Communities page Still working on this page
-    </div>
+    <>
+      <Hero />
+      <Content/>
+   </>
   )
 }
 
