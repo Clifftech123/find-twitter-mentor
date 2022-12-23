@@ -1,14 +1,12 @@
+// THS component contain  content on inspiration
 
-// THS component contain  content on inspiration 
-
-import React from 'react'
-
+import React from "react";
 
 const Image =
 	"https://www.theglobeandmail.com/resizer/r4NbqvbwLZHIWVv3h-M-zBc_MKM=/600x0/filters:quality(80):format(jpeg)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/ZGPHF55TGBEUJCNKT5KK4PMIPY";
 
 const Inspiration = () => {
-  return (
+	return (
 		<>
 			<section class="  bg-white dark:bg-Dark_bg_color">
 				<div class="container px-6 py-10 mx-auto">
@@ -137,7 +135,6 @@ const Inspiration = () => {
 			{/* END FAQ Section: Simple */}
 		</>
 	);
-}
+};
 
 export default Inspiration;
-
