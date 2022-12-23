@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { BsCodeSlash } from "react-icons/bs";
 import { IoCodeDownloadSharp } from "react-icons/io5";
 import { BsCodeSquare } from "react-icons/bs";
@@ -6,13 +6,8 @@ import { SiAndroidstudio } from "react-icons/si";
 import { AiOutlineCloudServer } from "react-icons/ai";
 import { BiData } from "react-icons/bi";
 
-
-
-
-
-
 const FirstCards = () => {
-  return (
+	return (
 		<div>
 			{/* Features Section: Boxes with Icons */}
 			<div className="  bg-Nav_Bg_Color     dark:bg-Dark_bg_color  duration-100">
@@ -139,7 +134,6 @@ const FirstCards = () => {
 			</div>
 		</div>
 	);
-}
+};
 
-export default FirstCards
-
+export default FirstCards;
