@@ -2,7 +2,7 @@
 module.exports = {
 	mode: "jit",
 	darkMode: "class",
-	content: [ "./index.html", "./src/**/*.{js,ts,jsx,tsx}" ],
+	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
 			fontFamily: {
@@ -24,8 +24,8 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [ require( "daisyui" ) ],
-	// daisyUI config (optional)
+	plugins: [require("daisyui")],
+
 	daisyui: {
 		styled: true,
 		themes: true,
@@ -36,5 +36,4 @@ module.exports = {
 		prefix: "",
 		darkTheme: "dark",
 	},
-
 };
