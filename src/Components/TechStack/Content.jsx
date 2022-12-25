@@ -1,9 +1,9 @@
 // This component focus on why you need tech stack
 
-import React from 'react'
+import React from "react";
 
 const Content = () => {
-  return (
+	return (
 		<>
 			<section className="bg-white dark:bg-gray-900">
 				<div className="container px-6 py-10 mx-auto">
@@ -147,15 +147,15 @@ const Content = () => {
 								src="https://images.unsplash.com/photo-1622676017526-4a8e99f5fdf3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 								alt=""
 							/>
-                      </div>
-                      {/* end of image */}
+						</div>
+						{/* end of image */}
 					</div>
-                   {/*Line */}
+					{/*Line */}
 					<hr className="my-12 border-gray-200 dark:border-gray-700" />
 				</div>
 			</section>
 		</>
 	);
-}
+};
 
-export default Content
+export default Content;
