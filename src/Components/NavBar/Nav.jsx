@@ -154,15 +154,7 @@ flex flex-none items-center fixed top-0 left-0 right-0 dark:text-gray-100 dark:b
 							</HashLink>
 						</span>
 					</button>
-					{/* Fined Mentor */}
-					<button
-						onClick={() => navigate("/fineMentor")}
-						type="button"
-						className="text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent   hover:text-white hover: hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none dark:hover:bg-slate-700 "
-					>
-						<MdOutlinePersonalInjury />
-						<span> Find Mentor </span>
-					</button>
+					
 
 					{/*  Resources    */}
 					<button
@@ -326,15 +318,7 @@ flex flex-none items-center fixed top-0 left-0 right-0 dark:text-gray-100 dark:b
 					</HashLink>
 				</button>
 
-				{/* Fined Mentor */}
-				<button
-					onClick={() => navigate("/fineMentor")}
-					type="button"
-					className="   dark:bg-slate-900 text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded   text-gray-700  border border-transparent hover:text-white  hover:bg-Nav_text_hover_color  dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none dark:hover:bg-slate-700  "
-				>
-					<MdOutlinePersonalInjury />
-					<span> Find Mentor </span>
-				</button>
+		
 
 				{/*  Resources    */}
 				<button
