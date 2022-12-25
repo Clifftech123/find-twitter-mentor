@@ -13,7 +13,7 @@ const QuoteSwiper = () => {
   return (
 		<>
 			<section className=" dark:bg-Dark_bg_color  dark:text-gray-100 border-t border-gray-200 dark:border-gray-700">
-				<div className="container sm:px-6 py-12 mx-auto">
+				<div className="container px-6  py-12 mx-auto">
 					<div className="grid items-center gap-4 xl:grid-cols-5">
 						{/* ======= SIDE TEXT ========== */}
 						<div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
