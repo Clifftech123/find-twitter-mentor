@@ -31,7 +31,7 @@ const Resources = () => {
 						{/* FIRST ROW  */}
 
 						{/*  ========W3School  ========= */}
-						<div className="Shadow-lg hover:shadow-2xl hover:translate-y-2 transform bg-white p-10 shadow-lg">
+						<div className="Shadow-lg  dark:bg-gray-800 hover:shadow-2xl hover:translate-y-2 transform bg-white p-10 shadow-lg">
 							<img
 								className="w-12 h-12 mb-4 "
 								src={w3SchoolLogo}
@@ -45,7 +45,7 @@ const Resources = () => {
 							>
 								w3schools
 							</a>
-							<p class="text-base leading-relaxed text-gray-600">
+							<p class="text-base leading-relaxed dark:text-gray-100 text-gray-600">
 								W3Schools is optimized for learning, testing, and training.
 								Examples might be simplified to improve reading and basic
 								understanding. Tutorials, references, and examples are
@@ -56,9 +56,9 @@ const Resources = () => {
 						{/*  --------- end of  W3School -------- */}
 
 						{/* ========== freeCodeCamp  ====== */}
-						<div className="Shadow-lg hover:shadow-2xl hover:translate-y-2 transform  bg-white p-10 shadow-lg">
+						<div className="Shadow-lg  dark:bg-gray-800  hover:shadow-2xl hover:translate-y-2 transform  bg-white p-10 shadow-lg">
 							<img
-								className="w-12 h-12 mb-4"
+								className="w-12 h-12 mb-4 dark:bg-white"
 								src={FreeCodeCampLogo}
 								alt="FreeCodeCampLogo"
 							/>
@@ -70,7 +70,7 @@ const Resources = () => {
 							>
 								freeCodeCamp
 							</a>
-							<p class="text-base leading-relaxed text-gray-600">
+							<p class="text-base  dark:text-gray-100  leading-relaxed text-gray-600">
 								freeCodeCamp is a proven path to your first software developer
 								job. More than 40,000 people have gotten developer jobs after
 								completing this – including at big companies like Google and
@@ -80,7 +80,7 @@ const Resources = () => {
 						</div>
 						{/*  --------- end of  freeCodeCamp -------- */}
 						{/* ========== Codecademy ====== */}
-						<div className="Shadow-lg hover:shadow-2xl hover:translate-y-2 transform bg-white p-10 shadow-lg">
+						<div className="Shadow-lg  dark:bg-gray-800 hover:shadow-2xl hover:translate-y-2 transform bg-white p-10 shadow-lg">
 							<img
 								className="w-12 h-12 mb-4"
 								src={CodecademyLogo}
@@ -94,7 +94,7 @@ const Resources = () => {
 							>
 								Codecademy
 							</a>
-							<p class="text-base leading-relaxed text-gray-600">
+							<p class="text-base  dark:text-gray-100 leading-relaxed text-gray-600">
 								We want to create a world where anyone can build something
 								meaningful with technology, and everyone has the learning tools,
 								resources, and opportunities to do so. Code contains a world of
@@ -112,7 +112,7 @@ const Resources = () => {
 						{/* SECOND ROW  */}
 
 						{/* ======= YOUTUBE   ======= */}
-						<div className="Shadow-lg hover:shadow-2xl hover:translate-y-2 transform  bg-white p-10 shadow-lg">
+						<div className="Shadow-lg  dark:bg-gray-800 hover:shadow-2xl hover:translate-y-2 transform  bg-white p-10 shadow-lg">
 							<img
 								className="w-12 h-12 mb-4"
 								src={YoutubeLogo}
@@ -126,7 +126,7 @@ const Resources = () => {
 							>
 								Youtube
 							</a>
-							<p class="text-base leading-relaxed text-gray-600">
+							<p class="text-base leading-relaxed  dark:text-gray-100  text-gray-600">
 								Some prefer an even more independent approach to learning
 								coding. Luckily, the internet has no lack of free resources for
 								people who want to become experts in coding. YouTube is a great
@@ -139,7 +139,7 @@ const Resources = () => {
 						</div>
 						{/* -------    END OF THE YOUTUBE   --------*/}
 						{/* ======= OdinProject    ======= */}
-						<div className="Shadow-lg hover:shadow-2xl hover:translate-y-2 transform bg-white p-10 shadow-lg">
+						<div className="Shadow-lg  dark:bg-gray-800  hover:shadow-2xl hover:translate-y-2 transform bg-white p-10 shadow-lg">
 							<img
 								className="w-12 h-12 mb-4"
 								src={odinProjectLogo}
@@ -153,7 +153,7 @@ const Resources = () => {
 							>
 								OdinProject
 							</a>
-							<p class="text-base leading-relaxed text-gray-600">
+							<p class="text-base leading-relaxed  dark:text-gray-100  text-gray-600">
 								The Odin Project provides a free open source coding curriculum
 								that can be taken entirely online. Since its inception, it has
 								helped many students get hired as developers and has assisted
@@ -163,9 +163,9 @@ const Resources = () => {
 						</div>
 						{/* -------    END OF THE  OdinProject   --------*/}
 						{/* ============ Udemy  ============== */}
-						<div className="Shadow-lg hover:shadow-2xl hover:translate-y-2 transform bg-white p-10 shadow-lg">
+						<div className="Shadow-lg  dark:bg-gray-800  hover:shadow-2xl hover:translate-y-2 transform bg-white p-10 shadow-lg">
 							<img
-								className="w-12 h-12 mb-4"
+								className="w-12 h-12 mb-4  dark:bg-white"
 								src={UdemyLogo}
 								alt=" UdemyLogo "
 							/>
@@ -177,7 +177,7 @@ const Resources = () => {
 							>
 								Udemy
 							</a>
-							<p class="text-base leading-relaxed text-gray-600">
+							<p class="text-base leading-relaxed  dark:text-gray-100  text-gray-600">
 								Udemy offers thousands of free online courses when it comes to
 								coding. With over 55,000 courses taught by instructors
 								worldwide, students can master new skills and achieve their
