@@ -332,15 +332,7 @@ flex flex-none items-center fixed top-0 left-0 right-0 dark:text-gray-100 dark:b
 					<span> Resources </span>
 				</button>
 
-				{/* contact */}
-				<button
-					type="button"
-					className="   dark:bg-slate-900 text-sm font-medium flex items-center space-x-2 px-3 py-2 rounded  text-gray-700  border border-transparent hover:text-white       hover:bg-Nav_text_hover_color      dark:hover:bg-slate-900 dark:bg-nav_dark_bg_color  dark:text-gray-300 dark:border-none "
-				>
-					<AiTwotoneContacts />
-					<span> Contact </span>
-				</button>
-
+				
 				{/* DARK MODE SHOWING ON SMALL DEVICES  */}
 				{/* LIGHT AND  DARK MODE */}
 				<div className="relative inline-block ">
